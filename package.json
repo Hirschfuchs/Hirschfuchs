@@ -8,5 +8,8 @@
     "Bono"
   ],
   "author": "Bono Fox <mail@bono-fox.de>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
 }
