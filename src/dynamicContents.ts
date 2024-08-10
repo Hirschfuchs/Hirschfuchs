@@ -93,7 +93,6 @@ export const generatePlannedProjects = () => {
       [
         "📦 Projects",
         "🎉 State",
-        "📖 Description",
         "✔️ Build State",
         "🛎 Issues",
         "📬 Pull requests",
@@ -101,13 +100,19 @@ export const generatePlannedProjects = () => {
       plannedProjects.map((plannedProject): string[] => [
         plannedProjectNameCol(plannedProject),
         stateTextFrom(plannedProject.state),
-        plannedProject.description,
         plannedProjectBuildStateCol(plannedProject),
         plannedProjectIssuesCol(plannedProject),
         plannedProjectPrsCol(plannedProject),
       ]),
     ),
     linebreak(),
+    headlineFrom("📖 Details", { level: 3 }),
+    listFrom(
+      plannedProjects.map(
+        (plannedProject) =>
+          `${plannedProject.name}: ${plannedProject.description}`,
+      ),
+    ),
   );
 
   return lines.join("");
