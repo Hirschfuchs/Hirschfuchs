@@ -3,6 +3,13 @@ import { ProjectStates } from "../enums/projectStates";
 
 export const plannedProjects: TypesPlannedProject[] = [
   {
+    name: "Portfolio",
+    description: "Self-Marketing ^^",
+    state: ProjectStates.WIP,
+    urlRepo: "https://github.com/Hirschfuchs/portfolio",
+    urlWeb: "https://test.bono-fox.de",
+  },
+  {
     name: "Vim-Cheatsheet (Vimfo)",
     description: "An interactive cheatsheet for VIM-keys",
     state: ProjectStates.WIP,
@@ -23,11 +30,6 @@ export const plannedProjects: TypesPlannedProject[] = [
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/Kick-Projects/kick-fox-alt",
     urlWeb: "https://kick-fox.de",
-  },
-  {
-    name: "Portfolio",
-    description: "Self-Marketing ^^",
-    state: ProjectStates.PLANNED,
   },
   {
     name: "Notfallapp",
