@@ -10,6 +10,13 @@ export const plannedProjects: TypesPlannedProject[] = [
     urlWeb: "https://test.bono-fox.de",
   },
   {
+    name: "Set-Variable for Github Actions",
+    description: "Github Action to set repository variables",
+    state: ProjectStates.ACTIVE,
+    urlRepo: "https://github.com/OpenFoxes/set-github-variable",
+    urlWeb: "https://github.com/marketplace/actions/set-github-variable-by-open-foxes",
+  },
+  {
     name: "Vim-Cheatsheet (Vimfo)",
     description: "An interactive cheatsheet for VIM-keys",
     state: ProjectStates.WIP,
