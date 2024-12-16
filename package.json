@@ -10,7 +10,8 @@
   "author": "Bono Fox <mail@bono-fox.de>",
   "license": "ISC",
   "scripts": {
-    "generate-readme": "ts-node src/generateReadme.ts"
+    "generate-readme": "ts-node src/generateReadme.ts",
+    "format-all": "prettier -w src/."
   },
   "devDependencies": {
     "@types/node": "22.10.2",
