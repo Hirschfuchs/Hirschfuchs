@@ -11,8 +11,10 @@ import {
 } from "./dynamicContents";
 import { horizontalLine, linebreak } from "./formatter";
 import * as fs from "fs";
+import i18next, { TFunction } from "i18next";
+import { i18nResources } from "./i18n/i18n";
 
-const generateReadme = () => {
+const generateReadme = (translation: TFunction<"translation">) => {
   const readmeSections: string[] = [
     generateHeader(),
     linebreak(),
@@ -35,4 +37,16 @@ const generateReadme = () => {
   });
 };
 
-generateReadme();
+i18next.init(
+  {
+    lng: "en",
+    resources: i18nResources,
+  },
+  (err, translation) => {
+    if (err !== null) {
+      throw Error(err);
+    }
+
+    generateReadme(translation);
+  },
+);
