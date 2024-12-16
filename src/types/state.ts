@@ -8,7 +8,7 @@ export type ProjectState = {
 export const stateDescription = (state: ProjectStates): ProjectState => {
   switch (state) {
     case ProjectStates.ACTIVE:
-      return { icon: "🏃", name: "Actice" };
+      return { icon: "🏃", name: "Active" };
     case ProjectStates.INACTIVE:
       return { icon: "💤", name: "Inactive" };
     case ProjectStates.PLANNED:
