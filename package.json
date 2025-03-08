@@ -14,7 +14,7 @@
     "format-all": "prettier -w src/."
   },
   "devDependencies": {
-    "@types/node": "22.13.5",
+    "@types/node": "22.13.10",
     "prettier": "3.5.2",
     "ts-node": "10.9.2",
     "tslib": "2.8.1",
