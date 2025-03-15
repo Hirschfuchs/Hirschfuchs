@@ -3,13 +3,6 @@ import { ProjectStates } from "../enums/projectStates";
 
 export const plannedProjects: TypesPlannedProject[] = [
   {
-    name: "Portfolio",
-    description: "Self-Marketing ^^",
-    state: ProjectStates.WIP,
-    urlRepo: "https://github.com/Hirschfuchs/portfolio",
-    urlWeb: "https://test.bono-fox.de",
-  },
-  {
     name: "Set-Variable for Github Actions",
     description: "Github Action to set repository variables",
     state: ProjectStates.ACTIVE,
@@ -18,26 +11,33 @@ export const plannedProjects: TypesPlannedProject[] = [
       "https://github.com/marketplace/actions/set-github-variable-by-open-foxes",
   },
   {
-    name: "Vim-Cheatsheet (Vimfo)",
-    description: "An interactive cheatsheet for VIM-keys",
-    state: ProjectStates.WIP,
-    urlRepo: "https://github.com/OpenFoxes/vim-cheatsheet-interactive",
-    urlWeb: "https://vimfo.org",
-  },
-  {
-    name: "GameFrame",
-    description:
-      "A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.",
-    state: ProjectStates.INACTIVE,
-    urlWeb: "https://game-frame.de",
-  },
-  {
     name: "Kick-Pages",
     description:
       "Webpages of a local musician. Many technical youthful mistakes -> will be redone.",
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/Kick-Projects/kick-fox-alt",
     urlWeb: "https://kick-fox.de",
+  },
+  {
+    name: "Portfolio",
+    description: "Self-Marketing ^^",
+    state: ProjectStates.WIP,
+    urlRepo: "https://github.com/Hirschfuchs/portfolio",
+    urlWeb: "https://test.bono-fox.de",
+  },
+  {
+    name: "TS-Builder",
+    description: "Implementation of an dynamic builder pattern in Typescript",
+    state: ProjectStates.WIP,
+    urlRepo: "https://github.com/OpenFoxes/ts-builder",
+    urlWeb: "https://www.npmjs.com/package/@openfoxes/ts-builder",
+  },
+  {
+    name: "Vim-Cheatsheet (Vimfo)",
+    description: "An interactive cheatsheet for VIM-keys",
+    state: ProjectStates.PAUSED,
+    urlRepo: "https://github.com/OpenFoxes/vim-cheatsheet-interactive",
+    urlWeb: "https://vimfo.org",
   },
   {
     name: "Notfallapp",
@@ -75,5 +75,12 @@ export const plannedProjects: TypesPlannedProject[] = [
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/Hirschfuchs/stolpersteine-ilmenau.de",
     urlWeb: "https://stolpersteine-ilmenau.de",
+  },
+  {
+    name: "GameFrame",
+    description:
+      "A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.",
+    state: ProjectStates.INACTIVE,
+    urlWeb: "https://game-frame.de",
   },
 ];
