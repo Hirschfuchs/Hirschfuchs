@@ -152,7 +152,7 @@ export const generateLanguagesAndTools = () => {
     "![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)\n",
     "![Amazon Alexa](https://img.shields.io/badge/amazon%20alexa-52b5f7?style=for-the-badge&logo=amazon%20alexa&logoColor=white)\n",
     "\n",
-    "- But my goal for 2024 is building my own system, so that these guys right here become obsolete ;)",
+    "- But my goal for the near future is building my own system, so that these guys right here become obsolete ;)",
   );
 
   return lines.join("");
