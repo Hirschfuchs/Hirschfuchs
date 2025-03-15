@@ -3,4 +3,5 @@ export enum ProjectStates {
   INACTIVE,
   PLANNED,
   WIP,
+  PAUSED,
 }

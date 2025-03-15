@@ -15,5 +15,7 @@ export const stateDescription = (state: ProjectStates): ProjectState => {
       return { icon: "📃", name: "Planned" };
     case ProjectStates.WIP:
       return { icon: "🚧", name: "Work in Progress" };
+    case ProjectStates.PAUSED:
+      return { icon: "⏸️", name: "Paused" };
   }
 };
