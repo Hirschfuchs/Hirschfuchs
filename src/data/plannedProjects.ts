@@ -19,6 +19,13 @@ export const plannedProjects: TypesPlannedProject[] = [
     urlWeb: "https://kick-fox.de",
   },
   {
+    name: "Deutschlandticket Planner",
+    description:
+      "Calculation of train rides available for the Deutschlandticket and possible to do in a specific time",
+    state: ProjectStates.WIP,
+    urlRepo: "https://github.com/OpenFoxes/deutschlandticket-planner-backend",
+  },
+  {
     name: "Portfolio",
     description: "Self-Marketing ^^",
     state: ProjectStates.WIP,
@@ -53,13 +60,6 @@ export const plannedProjects: TypesPlannedProject[] = [
       "Fork of a changelog generator, but working with Gitmoji instead of keywords",
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/OpenFoxes/generate-changelog-gitmoji",
-  },
-  {
-    name: "Deutschlandticket Planner",
-    description:
-      "Calculation of train rides available for the Deutschlandticket and possible to do in a specific time",
-    state: ProjectStates.PLANNED,
-    urlRepo: "https://github.com/OpenFoxes/deutschlandticket-planner",
   },
   {
     name: "Wikipedia Poker",
