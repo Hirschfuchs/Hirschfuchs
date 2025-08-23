@@ -1,10 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "description": "Renovate-Konfiguration des Hirschfuchs-Repos",
-  "labels": ["👷 renovate"],
+  "labels": [
+    "👷 renovate"
+  ],
   "prHourlyLimit": 20,
-  "recreateClosed": true,
+  "recreateWhen": "always",
   "prTitle": "[RFR] {{commitMessage}}",
   "commitMessagePrefix": "⬆️ ",
   "commitMessageAction": "Upgrade",
@@ -13,17 +17,25 @@
   "lockFileMaintenance": {
     "enabled": true,
     "commitMessageAction": "Lockfile-Wartung",
-    "prBodyDefinitions": { "Change": "Alle Locks aktualisiert" }
+    "prBodyDefinitions": {
+      "Change": "Alle Locks aktualisiert"
+    }
   },
   "packageRules": [
     {
-      "matchUpdateTypes": ["pin"],
+      "matchUpdateTypes": [
+        "pin"
+      ],
       "commitMessagePrefix": "📌 ",
       "commitMessageAction": "Pinne",
-      "addLabels": ["pin"]
+      "addLabels": [
+        "pin"
+      ]
     },
     {
-      "matchUpdateTypes": ["rollback"],
+      "matchUpdateTypes": [
+        "rollback"
+      ],
       "commitMessagePrefix": "⬇️ ",
       "commitMessageAction": "Downgrade"
     }
