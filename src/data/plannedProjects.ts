@@ -21,12 +21,23 @@ export const plannedProjects: TypesPlannedProject[] = [
     urlWeb: "https://kick-fox.de",
   },
   {
-    name: "Deutschlandticket Planner",
+    name: "KeePass Plugin Collection",
     description:
-      "Calculation of train rides available for the Deutschlandticket and possible to do in a specific time",
-    emoji: "🚆",
+      "Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.",
+    emoji: "🔏",
     state: ProjectStates.WIP,
-    urlRepo: "https://github.com/OpenFoxes/deutschlandticket-planner-backend",
+    urlRepo: "https://github.com/Hirschfuchs/keepass-plugins",
+    newFlag: {
+      since: "2025-09-10",
+      newDescription:
+        "When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.\n" +
+        "\n" +
+        "Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.\n" +
+        "\n" +
+        "And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”*\n" +
+        "\n" +
+        "That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)",
+    },
   },
   {
     name: "Portfolio",
@@ -37,20 +48,20 @@ export const plannedProjects: TypesPlannedProject[] = [
     urlWeb: "https://test.bono-fox.de",
   },
   {
-    name: "TS-Builder",
-    description: "Implementation of an dynamic builder pattern in Typescript",
-    emoji: "🏗️",
-    state: ProjectStates.WIP,
-    urlRepo: "https://github.com/OpenFoxes/ts-builder",
-    urlWeb: "https://www.npmjs.com/package/@openfoxes/ts-builder",
-  },
-  {
     name: "Vim-Cheatsheet (Vimfo)",
     description: "An interactive cheatsheet for VIM-keys",
     emoji: "⌨️",
     state: ProjectStates.PAUSED,
     urlRepo: "https://github.com/OpenFoxes/vim-cheatsheet-interactive",
     urlWeb: "https://vimfo.org",
+  },
+  {
+    name: "TS-Builder",
+    description: "Implementation of an dynamic builder pattern in Typescript",
+    emoji: "🏗️",
+    state: ProjectStates.PAUSED,
+    urlRepo: "https://github.com/OpenFoxes/ts-builder",
+    urlWeb: "https://www.npmjs.com/package/@openfoxes/ts-builder",
   },
   {
     name: "Notfallapp",
@@ -60,6 +71,14 @@ export const plannedProjects: TypesPlannedProject[] = [
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/Hirschfuchs/Notfallapp",
     urlWeb: "https://notrufe.app/",
+  },
+  {
+    name: "Deutschlandticket Planner",
+    description:
+      "Calculation of train rides available for the Deutschlandticket and possible to do in a specific time",
+    emoji: "🚆",
+    state: ProjectStates.PLANNED,
+    urlRepo: "https://github.com/OpenFoxes/deutschlandticket-planner-backend",
   },
   {
     name: "Gitmoji Changelog Generator",

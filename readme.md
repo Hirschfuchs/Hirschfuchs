@@ -3,6 +3,20 @@
 
 <p><img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" /></p>
 
+## Neues Projekt
+
+### 🔏 KeePass Plugin Collection
+
+*Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.*\
+**When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.**
+
+**Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.**
+
+**And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”***
+
+**That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)**
+
+
 ## Infos
 
 - 👨‍💻 **About me**:
@@ -25,11 +39,12 @@
 |------|------|------|------|------|
 |[Set-Variable for Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Online ansehen](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([Online ansehen](https://kick-fox.de))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
-|[Deutschlandticket Planner](https://github.com/OpenFoxes/deutschlandticket-planner-backend)|🚧 Work in Progress|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/deutschlandticket-planner-backend?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/deutschlandticket-planner-backend?style=flat-square"/>|
+|[🆕 KeePass Plugin Collection](https://github.com/Hirschfuchs/keepass-plugins)|🚧 Work in Progress|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
 |[Portfolio](https://github.com/Hirschfuchs/portfolio) ([Online ansehen](https://test.bono-fox.de))|🚧 Work in Progress|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
-|[TS-Builder](https://github.com/OpenFoxes/ts-builder) ([Online ansehen](https://www.npmjs.com/package/@openfoxes/ts-builder))|🚧 Work in Progress|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://www.npmjs.com/package/@openfoxes/ts-builder"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/www.npmjs.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/ts-builder?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/ts-builder?style=flat-square"/>|
 |[Vim-Cheatsheet (Vimfo)](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([Online ansehen](https://vimfo.org))|⏸️ Paused|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|
+|[TS-Builder](https://github.com/OpenFoxes/ts-builder) ([Online ansehen](https://www.npmjs.com/package/@openfoxes/ts-builder))|⏸️ Paused|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://www.npmjs.com/package/@openfoxes/ts-builder"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/www.npmjs.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/ts-builder?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/ts-builder?style=flat-square"/>|
 |[Notfallapp](https://github.com/Hirschfuchs/Notfallapp) ([Online ansehen](https://notrufe.app/))|📃 Planned|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://notrufe.app/"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/notrufe.app?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Notfallapp?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Notfallapp?style=flat-square"/>|
+|[Deutschlandticket Planner](https://github.com/OpenFoxes/deutschlandticket-planner-backend)|📃 Planned|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/deutschlandticket-planner-backend?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/deutschlandticket-planner-backend?style=flat-square"/>|
 |[Gitmoji Changelog Generator](https://github.com/OpenFoxes/generate-changelog-gitmoji)|📃 Planned|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/generate-changelog-gitmoji?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/generate-changelog-gitmoji?style=flat-square"/>|
 |[Wikipedia Poker](https://github.com/OpenFoxes/wikipedia-poker)|📃 Planned|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/wikipedia-poker?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/wikipedia-poker?style=flat-square"/>|
 |[Stolpersteine Ilmenau](https://github.com/Hirschfuchs/stolpersteine-ilmenau.de) ([Online ansehen](https://stolpersteine-ilmenau.de))|📃 Planned|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://stolpersteine-ilmenau.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/stolpersteine-ilmenau.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/stolpersteine-ilmenau.de?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/stolpersteine-ilmenau.de?style=flat-square"/>|
@@ -38,11 +53,12 @@
 ### 📖 Details
 - #️⃣ Set-Variable for Github Actions: Github Action to set repository variables
 - 🎸 Kick-Pages: Webpages of a local musician. Many technical youthful mistakes -> will be redone.
-- 🚆 Deutschlandticket Planner: Calculation of train rides available for the Deutschlandticket and possible to do in a specific time
+- 🔏 KeePass Plugin Collection: Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.
 - 📖 Portfolio: Self-Marketing ^^
-- 🏗️ TS-Builder: Implementation of an dynamic builder pattern in Typescript
 - ⌨️ Vim-Cheatsheet (Vimfo): An interactive cheatsheet for VIM-keys
+- 🏗️ TS-Builder: Implementation of an dynamic builder pattern in Typescript
 - 🚨 Notfallapp: Webapplication for quick access to emergency numbers and relevant information
+- 🚆 Deutschlandticket Planner: Calculation of train rides available for the Deutschlandticket and possible to do in a specific time
 - 🤓 Gitmoji Changelog Generator: Fork of a changelog generator, but working with Gitmoji instead of keywords
 - 👣 Wikipedia Poker: A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)
 - 🕎 Stolpersteine Ilmenau: Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)
