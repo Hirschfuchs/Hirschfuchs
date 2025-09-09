@@ -6,6 +6,7 @@ import {
 } from "./staticContents";
 import {
   generateInfos,
+  generateNewProjectsHighlight,
   generatePlannedProjects,
   generateTopics,
 } from "./dynamicContents";
@@ -16,6 +17,7 @@ const generateReadme = () => {
   const readmeSections: string[] = [
     generateHeader(),
     linebreak(),
+    generateNewProjectsHighlight(),
     generateInfos(),
     generatePlannedProjects(),
     generateTopics(),
