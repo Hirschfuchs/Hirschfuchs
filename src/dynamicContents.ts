@@ -162,7 +162,7 @@ export const generatePlannedProjects = () => {
     listFrom(
       plannedProjects.map(
         (plannedProject) =>
-          `${plannedProject.name}: ${plannedProject.description}`,
+          `${plannedProject.emoji} ${plannedProject.name}: ${plannedProject.description}`,
       ),
     ),
   );
