@@ -40,11 +40,11 @@ jobs:
           }
 
       - name: README generieren
-        if: "!contains(github.event.head_commit.message, '🎨 Code formatiert') && !contains(github.event.head_commit.message, '📝 README generiert')"
+        if: "!contains(github.event.head_commit.message, '📝 README generiert')"
         run: npm run generate-readme
 
       - name: Add README-commit
-        if: "!contains(github.event.head_commit.message, '🎨 Code formatiert') && !contains(github.event.head_commit.message, '📝 README generiert')"
+        if: "!contains(github.event.head_commit.message, '📝 README generiert')"
         run: |
           git checkout ${{ github.event.pull_request.head.ref }}
           git add .
