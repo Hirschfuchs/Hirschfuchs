@@ -55,9 +55,14 @@ export const paragraphFrom = (
   return paragraphString.join("");
 };
 
-export const listFrom = (listpoints: string[]) => {
+export const listFrom = (listpoints: string[], depth?: number) => {
+  let indent = "";
+  if (depth !== undefined) {
+    indent = "  ".repeat(depth - 1);
+  }
+
   return listpoints
-    .map((listpoint) => `- ${listpoint}`)
+    .map((listpoint) => `${indent}- ${listpoint}`)
     .join("\n")
     .concat("\n");
 };
