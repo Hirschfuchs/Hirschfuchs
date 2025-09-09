@@ -12,6 +12,39 @@ import { TypesPlannedProject } from "./types/typesPlannedProject";
 import { ProjectStates } from "./enums/projectStates";
 import { topics } from "./data/topics";
 
+export const generateNewProjectsHighlight = () => {
+  const lines: string[] = [];
+
+  const newProjects: ReadonlyArray<TypesPlannedProject> =
+    plannedProjects.filter((project) => project.newFlag);
+
+  if (newProjects.length === 0) {
+    return "";
+  }
+
+  if (newProjects.length === 1) {
+    lines.push(headlineFrom("Neues Projekt", { level: 2 }));
+  } else {
+    lines.push(headlineFrom("Neue Projekte", { level: 2 }));
+  }
+
+  newProjects.forEach((newProject) => {
+    lines.push(headlineFrom(newProject.name, { level: 3 }));
+    // Immer wahr, aber von Compiler nicht erkannt
+    if (newProject.newFlag) {
+      lines.push(
+        `*${newProject.description}*\\`,
+        `**${newProject.newFlag.newDescription}**`,
+        "",
+      );
+    }
+  });
+
+  lines.push(linebreak());
+
+  return lines.join("\n");
+};
+
 export const generateInfos = () => {
   const lines: string[] = [];
 
