@@ -72,10 +72,18 @@ export const generateInfos = () => {
 
 const plannedProjectNameCol = (plannedProject: TypesPlannedProject) => {
   let colText: string[] = [];
-  if (plannedProject.urlRepo !== undefined) {
-    colText.push(`[${plannedProject.name}](${plannedProject.urlRepo})`);
+  let projectName;
+
+  if (plannedProject.newFlag) {
+    projectName = `🆕 ${plannedProject.name}`;
   } else {
-    colText.push(plannedProject.name);
+    projectName = plannedProject.name;
+  }
+
+  if (plannedProject.urlRepo !== undefined) {
+    colText.push(`[${projectName}](${plannedProject.urlRepo})`);
+  } else {
+    colText.push(projectName);
   }
 
   if (plannedProject.urlWeb !== undefined) {
