@@ -15,8 +15,19 @@ import { topics } from "./data/topics";
 export const generateNewProjectsHighlight = () => {
   const lines: string[] = [];
 
-  const newProjects: ReadonlyArray<TypesPlannedProject> =
-    plannedProjects.filter((project) => project.newFlag);
+  const newProjects: ReadonlyArray<TypesPlannedProject> = plannedProjects
+    .filter((project) => project.newFlag)
+    .sort((a, b) => {
+      if (a.newFlag && b.newFlag) {
+        if (new Date(a.newFlag.since) < new Date(b.newFlag.since)) {
+          return 1;
+        }
+        if (new Date(a.newFlag.since) > new Date(b.newFlag.since)) {
+          return -1;
+        }
+      }
+      return 0;
+    });
 
   if (newProjects.length === 0) {
     return "";
