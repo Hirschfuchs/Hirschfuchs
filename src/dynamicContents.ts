@@ -40,7 +40,9 @@ export const generateNewProjectsHighlight = () => {
   }
 
   newProjects.forEach((newProject) => {
-    lines.push(headlineFrom(newProject.name, { level: 3 }));
+    lines.push(
+      headlineFrom(`${newProject.emoji} ${newProject.name}`, { level: 3 }),
+    );
     // Immer wahr, aber von Compiler nicht erkannt
     if (newProject.newFlag) {
       lines.push(
