@@ -4,5 +4,14 @@ export type WorkInfo = {
 };
 
 export type Info = {
+  aboutMe?: ReadonlyArray<{
+    name: string;
+    emoji: string;
+  }>;
   work?: WorkInfo;
+  voluntaryWork?: ReadonlyArray<WorkInfo>;
+  hobbies?: ReadonlyArray<{
+    name: string;
+    emoji: string;
+  }>;
 };
