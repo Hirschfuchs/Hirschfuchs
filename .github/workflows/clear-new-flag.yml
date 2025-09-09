@@ -1,0 +1,51 @@
+name: "'New'-Flags entfernen"
+on:
+  schedule:
+    - cron: '35 8 2/7 * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.head_ref ||  github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  clear-flags:
+    name: "Veraltete Flags entfernen"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Letzte Commit-Message laden
+        id: last_commit
+        run: |
+          last_commit_msg=$(git log -1 --pretty=%s)
+          echo "lastcommit=$last_commit_msg" >> $GITHUB_ENV
+
+      - name: Abhängigkeiten laden
+        run: npm ci
+
+      - name: Flags entfernen
+        if: "!contains(env.lastcommit, '💬 Veraltete New-Flags entfernt')"
+        run: npm run clear-new-flags
+
+      - name: README generieren
+        if: "!contains(env.lastcommit, '💬 Veraltete New-Flags entfernt')"
+        run: npm run generate-readme
+
+      - name: Add formatting-commit
+        if: >-
+          ${{!contains(env.lastcommit, '💬 Veraltete New-Flags entfernt')}}
+        run: |
+          git config --global user.name 'OpenFoxes Maintenance Bot'
+          git config --global user.email 'openfoxes@bono-fox.de'
+          git checkout ${{ github.event.pull_request.head.ref }}
+          git add .
+          git diff-index --quiet ${{ github.event.pull_request.head.ref }} || {
+          git commit -m "💬 Veraltete New-Flags entfernt"
+          git push origin ${{ github.event.pull_request.head.ref }}
+          }
