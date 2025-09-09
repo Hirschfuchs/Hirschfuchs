@@ -3,6 +3,7 @@ import { ProjectStates } from "../enums/projectStates";
 export type TypesPlannedProject = {
   name: string;
   description: string;
+  emoji: string;
   urlRepo?: string;
   urlWeb?: string;
   state: ProjectStates;
