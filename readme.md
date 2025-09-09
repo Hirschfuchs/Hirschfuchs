@@ -24,17 +24,17 @@
 |GameFrame ([Online ansehen](https://game-frame.de))|💤 Inactive|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://game-frame.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/game-frame.de?label=h-security&logo=mozilla&publish"/>|||
 
 ### 📖 Details
-- Set-Variable for Github Actions: Github Action to set repository variables
-- Kick-Pages: Webpages of a local musician. Many technical youthful mistakes -> will be redone.
-- Deutschlandticket Planner: Calculation of train rides available for the Deutschlandticket and possible to do in a specific time
-- Portfolio: Self-Marketing ^^
-- TS-Builder: Implementation of an dynamic builder pattern in Typescript
-- Vim-Cheatsheet (Vimfo): An interactive cheatsheet for VIM-keys
-- Notfallapp: Webapplication for quick access to emergency numbers and relevant information
-- Gitmoji Changelog Generator: Fork of a changelog generator, but working with Gitmoji instead of keywords
-- Wikipedia Poker: A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)
-- Stolpersteine Ilmenau: Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)
-- GameFrame: A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.
+- #️⃣ Set-Variable for Github Actions: Github Action to set repository variables
+- 🎸 Kick-Pages: Webpages of a local musician. Many technical youthful mistakes -> will be redone.
+- 🚆 Deutschlandticket Planner: Calculation of train rides available for the Deutschlandticket and possible to do in a specific time
+- 📖 Portfolio: Self-Marketing ^^
+- 🏗️ TS-Builder: Implementation of an dynamic builder pattern in Typescript
+- ⌨️ Vim-Cheatsheet (Vimfo): An interactive cheatsheet for VIM-keys
+- 🚨 Notfallapp: Webapplication for quick access to emergency numbers and relevant information
+- 🤓 Gitmoji Changelog Generator: Fork of a changelog generator, but working with Gitmoji instead of keywords
+- 👣 Wikipedia Poker: A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)
+- 🕎 Stolpersteine Ilmenau: Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)
+- 🎲 GameFrame: A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.
 ## Topics
 
 - 🌱 I’m currently learning **Rust**
