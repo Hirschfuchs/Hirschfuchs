@@ -45,7 +45,7 @@ export const generateNewProjectsHighlight = () => {
     if (newProject.newFlag) {
       lines.push(
         `*${newProject.description}*\\`,
-        `**${newProject.newFlag.newDescription}**`,
+        `**${newProject.newFlag.newDescription.replaceAll("\n", "**\n**").replaceAll("****", "")}**`,
         "",
       );
     }
