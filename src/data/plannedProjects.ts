@@ -5,6 +5,7 @@ export const plannedProjects: TypesPlannedProject[] = [
   {
     name: "Set-Variable for Github Actions",
     description: "Github Action to set repository variables",
+    emoji: "#️⃣",
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/OpenFoxes/set-github-variable",
     urlWeb:
@@ -14,6 +15,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "Kick-Pages",
     description:
       "Webpages of a local musician. Many technical youthful mistakes -> will be redone.",
+    emoji: "🎸",
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/Kick-Projects/kick-fox-alt",
     urlWeb: "https://kick-fox.de",
@@ -22,12 +24,14 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "Deutschlandticket Planner",
     description:
       "Calculation of train rides available for the Deutschlandticket and possible to do in a specific time",
+    emoji: "🚆",
     state: ProjectStates.WIP,
     urlRepo: "https://github.com/OpenFoxes/deutschlandticket-planner-backend",
   },
   {
     name: "Portfolio",
     description: "Self-Marketing ^^",
+    emoji: "📖",
     state: ProjectStates.WIP,
     urlRepo: "https://github.com/Hirschfuchs/portfolio",
     urlWeb: "https://test.bono-fox.de",
@@ -35,6 +39,7 @@ export const plannedProjects: TypesPlannedProject[] = [
   {
     name: "TS-Builder",
     description: "Implementation of an dynamic builder pattern in Typescript",
+    emoji: "🏗️",
     state: ProjectStates.WIP,
     urlRepo: "https://github.com/OpenFoxes/ts-builder",
     urlWeb: "https://www.npmjs.com/package/@openfoxes/ts-builder",
@@ -42,6 +47,7 @@ export const plannedProjects: TypesPlannedProject[] = [
   {
     name: "Vim-Cheatsheet (Vimfo)",
     description: "An interactive cheatsheet for VIM-keys",
+    emoji: "⌨️",
     state: ProjectStates.PAUSED,
     urlRepo: "https://github.com/OpenFoxes/vim-cheatsheet-interactive",
     urlWeb: "https://vimfo.org",
@@ -50,6 +56,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "Notfallapp",
     description:
       "Webapplication for quick access to emergency numbers and relevant information",
+    emoji: "🚨",
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/Hirschfuchs/Notfallapp",
     urlWeb: "https://notrufe.app/",
@@ -58,6 +65,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "Gitmoji Changelog Generator",
     description:
       "Fork of a changelog generator, but working with Gitmoji instead of keywords",
+    emoji: "🤓",
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/OpenFoxes/generate-changelog-gitmoji",
   },
@@ -65,6 +73,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "Wikipedia Poker",
     description:
       "A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)",
+    emoji: "👣",
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/OpenFoxes/wikipedia-poker",
   },
@@ -72,6 +81,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "Stolpersteine Ilmenau",
     description:
       "Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)",
+    emoji: "🕎",
     state: ProjectStates.PLANNED,
     urlRepo: "https://github.com/Hirschfuchs/stolpersteine-ilmenau.de",
     urlWeb: "https://stolpersteine-ilmenau.de",
@@ -80,6 +90,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "GameFrame",
     description:
       "A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.",
+    emoji: "🎲",
     state: ProjectStates.INACTIVE,
     urlWeb: "https://game-frame.de",
   },
