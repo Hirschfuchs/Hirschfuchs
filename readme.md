@@ -5,7 +5,19 @@
 
 ## Infos
 
-- 🔭 I’m currently working at [Inverso](https://www.inverso.de)
+- 👨‍💻 **About me**:
+  - Code Craftsman at heart 🤍
+  - Engaged 💍
+  - Atheist ⚛️
+  - Teetotaler 🍻
+
+- 🧑‍💼 **Voluntary Work**:
+  - 🧭 [Vice Chairperson Jusos Coburg](https://www.instagram.com/jusos_coburg/)
+
+- 🏊 **Hobbies**:
+  - 🥁 Music
+  - 📷 Photography
+
 
 ## Planned Projects
 
