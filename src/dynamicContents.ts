@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import { info } from "./data/info";
 import { plannedProjects } from "./data/plannedProjects";
 import { topics } from "./data/topics";
@@ -22,7 +23,9 @@ export const generateInfos = () => {
       aboutMePoints.push(`${aboutMeInfo.name} ${aboutMeInfo.emoji}`);
     });
 
-    infoItems.push(`👨‍💻 **About me**:\n${listFrom(aboutMePoints, 2)}`);
+    infoItems.push(
+      `👨‍💻 **${i18next.t("keywords.aboutMe")}**:\n${listFrom(aboutMePoints, 2)}`,
+    );
   }
 
   if (info.work) {
@@ -48,7 +51,7 @@ export const generateInfos = () => {
     });
 
     infoItems.push(
-      `🧑‍💼 **Voluntary Work**:\n${listFrom(voluntaryWorkPoints, 2)}`,
+      `🧑‍💼 **${i18next.t("keywords.voluntaryWork")}**:\n${listFrom(voluntaryWorkPoints, 2)}`,
     );
   }
 
@@ -58,11 +61,13 @@ export const generateInfos = () => {
       hobbiesPoints.push(`${hobby.emoji} ${hobby.name}`);
     });
 
-    infoItems.push(`🏊 **Hobbies**:\n${listFrom(hobbiesPoints, 2)}`);
+    infoItems.push(
+      `🏊 **${i18next.t("keywords.hobbies")}**:\n${listFrom(hobbiesPoints, 2)}`,
+    );
   }
 
   lines.push(
-    headlineFrom("ℹ️ Info", { level: 2 }),
+    headlineFrom(`ℹ️ ${i18next.t("headlines.level2.info")}`, { level: 2 }),
     linebreak(),
     listFrom(infoItems),
     linebreak(),
@@ -92,11 +97,12 @@ export const generateNewProjectsHighlight = () => {
     return "";
   }
 
-  if (newProjects.length === 1) {
-    lines.push(headlineFrom("🆕 New Project", { level: 2 }));
-  } else {
-    lines.push(headlineFrom("🆕 New Projects", { level: 2 }));
-  }
+  lines.push(
+    headlineFrom(
+      `🆕 ${i18next.t("headlines.level2.newSection", { count: newProjects.length })}`,
+      { level: 2 },
+    ),
+  );
 
   newProjects.forEach((newProject) => {
     let headlineElements = [`${newProject.emoji} ${newProject.name}`];
@@ -182,7 +188,9 @@ export const generatePlannedProjects = () => {
   const lines: string[] = [];
 
   lines.push(
-    headlineFrom("🚧 Planned Projects", { level: 2 }),
+    headlineFrom(`🚧 ${i18next.t("headlines.level2.plannedProjects")}`, {
+      level: 2,
+    }),
     linebreak(),
     tableFrom(
       [
@@ -201,7 +209,7 @@ export const generatePlannedProjects = () => {
       ]),
     ),
     linebreak(),
-    headlineFrom("📖 Details", { level: 3 }),
+    headlineFrom(`📖 ${i18next.t("keywords.details")}`, { level: 3 }),
     listFrom(
       plannedProjects.map(
         (plannedProject) =>
@@ -217,7 +225,7 @@ export const generateTopics = () => {
   const lines: string[] = [];
 
   lines.push(
-    headlineFrom("📚 Topics", { level: 2 }),
+    headlineFrom(`📚 ${i18next.t("headlines.level2.topics")}`, { level: 2 }),
     linebreak(),
     listFrom(topics.map((topic) => topicFrom(topic))),
   );

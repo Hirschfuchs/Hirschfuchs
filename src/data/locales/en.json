@@ -2,6 +2,39 @@
   "langName": "English",
   "headlines": {
     "title": "Hi \uD83D\uDC4B, I'm Bono",
-    "subtitle": "Software Developer from Germany"
+    "subtitle": "Software Developer from Germany",
+    "level2": {
+      "info": "Info",
+      "newSection_one": "New Project",
+      "newSection_other": "New Projects",
+      "plannedProjects": "Planned Projects",
+      "topics": "Topics",
+      "connectWithMe": "Connect with me",
+      "languagesAndTools": "Languages and Tools"
+    }
+  },
+  "keywords": {
+    "aboutMe": "About me",
+    "backend": "Backend",
+    "db": "Databases",
+    "details": "Details",
+    "development": "Development",
+    "developmentProcess": "Development Process",
+    "didWorkWithThem": "Did work with them",
+    "docs": "Docs",
+    "favourites": "Favourites",
+    "frameworks": "Frameworks",
+    "frontend": "Frontend",
+    "furtherLanguages": "Further Languages",
+    "gaming": "Gaming",
+    "hobbies": "Hobbies",
+    "nonDevTools": "Non-Dev Tools",
+    "notepads": "Notepads",
+    "os_one": "Operating System",
+    "os_other": "Operating Systems",
+    "personalAssistance": "Personal Assistance",
+    "print": "Print",
+    "tools": "Tools",
+    "voluntaryWork": "Voluntary Work"
   }
 }

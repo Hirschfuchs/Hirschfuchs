@@ -6,6 +6,7 @@ export const initI18N = async () => {
 
   await i18next.use(I18NexFsBackend).init({
     lng: "en",
+    fallbackLng: "en",
     backend: {
       loadPath: "src/data/locales/{{lng}}.json",
     },
