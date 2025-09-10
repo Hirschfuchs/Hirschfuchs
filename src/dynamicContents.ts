@@ -33,9 +33,9 @@ export const generateNewProjectsHighlight = () => {
   }
 
   if (newProjects.length === 1) {
-    lines.push(headlineFrom("🆕 Neues Projekt", { level: 2 }));
+    lines.push(headlineFrom("🆕 New Project", { level: 2 }));
   } else {
-    lines.push(headlineFrom("🆕 Neue Projekte", { level: 2 }));
+    lines.push(headlineFrom("🆕 New Projects", { level: 2 }));
   }
 
   newProjects.forEach((newProject) => {
@@ -108,7 +108,7 @@ export const generateInfos = () => {
   }
 
   lines.push(
-    headlineFrom("ℹ️ Infos", { level: 2 }),
+    headlineFrom("ℹ️ Info", { level: 2 }),
     linebreak(),
     listFrom(infoItems),
     linebreak(),
@@ -134,7 +134,7 @@ const plannedProjectNameCol = (plannedProject: TypesPlannedProject) => {
   }
 
   if (plannedProject.urlWeb !== undefined) {
-    colText.push(` ([Online ansehen](${plannedProject.urlWeb}))`);
+    colText.push(` ([View online](${plannedProject.urlWeb}))`);
   }
 
   return colText.join("");
