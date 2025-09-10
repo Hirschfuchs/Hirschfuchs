@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import {
   headlineFrom,
   horizontalLine,
@@ -5,11 +6,14 @@ import {
   paragraphFrom,
 } from "./formatter";
 
-export const generateHeader = () => {
+export const generateHeader = async () => {
   const lines: string[] = [];
   lines.push(
-    headlineFrom("Hi 👋, I'm Bono", { level: 1, alignment: "center" }),
-    headlineFrom("Software Developer from Germany", {
+    headlineFrom(i18next.t("headlines.title"), {
+      level: 1,
+      alignment: "center",
+    }),
+    headlineFrom(i18next.t("headlines.subtitle"), {
       level: 3,
       alignment: "center",
     }),
