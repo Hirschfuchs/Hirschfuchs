@@ -1,5 +1,5 @@
-import { Project, ts } from "ts-morph";
 import { DateTime } from "luxon";
+import { Project, ts } from "ts-morph";
 import SyntaxKind = ts.SyntaxKind;
 
 export const clearNewProjectFlags = () => {

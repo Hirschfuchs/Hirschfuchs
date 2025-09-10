@@ -1,3 +1,6 @@
+import { info } from "./data/info";
+import { plannedProjects } from "./data/plannedProjects";
+import { topics } from "./data/topics";
 import {
   headlineFrom,
   linebreak,
@@ -6,11 +9,7 @@ import {
   tableFrom,
   topicFrom,
 } from "./formatter";
-import { info } from "./data/info";
-import { plannedProjects } from "./data/plannedProjects";
 import { TypesPlannedProject } from "./types/typesPlannedProject";
-import { ProjectStates } from "./enums/projectStates";
-import { topics } from "./data/topics";
 
 export const generateNewProjectsHighlight = () => {
   const lines: string[] = [];

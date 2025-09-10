@@ -2,10 +2,8 @@ import {
   headlineFrom,
   horizontalLine,
   linebreak,
-  listFrom,
   paragraphFrom,
 } from "./formatter";
-import { generateInfos } from "./dynamicContents";
 
 export const generateHeader = () => {
   const lines: string[] = [];
