@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import { ProjectStates } from "../enums/projectStates";
 
 export type ProjectState = {
@@ -8,14 +9,14 @@ export type ProjectState = {
 export const stateDescription = (state: ProjectStates): ProjectState => {
   switch (state) {
     case ProjectStates.ACTIVE:
-      return { icon: "🏃", name: "Active" };
+      return { icon: "🏃", name: i18next.t("states.active") };
     case ProjectStates.INACTIVE:
-      return { icon: "💤", name: "Inactive" };
+      return { icon: "💤", name: i18next.t("states.inactive") };
     case ProjectStates.PLANNED:
-      return { icon: "📃", name: "Planned" };
+      return { icon: "📃", name: i18next.t("states.planned") };
     case ProjectStates.WIP:
-      return { icon: "🚧", name: "Work in Progress" };
+      return { icon: "🚧", name: i18next.t("states.wip") };
     case ProjectStates.PAUSED:
-      return { icon: "⏸️", name: "Paused" };
+      return { icon: "⏸️", name: i18next.t("states.paused") };
   }
 };

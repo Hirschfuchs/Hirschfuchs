@@ -108,10 +108,14 @@ export const generateNewProjectsHighlight = () => {
     let headlineElements = [`${newProject.emoji} ${newProject.name}`];
 
     if (newProject.urlRepo !== undefined) {
-      headlineElements.push(`([View Repo](${newProject.urlRepo}))`);
+      headlineElements.push(
+        `([${i18next.t("keywords.viewRepo")}](${newProject.urlRepo}))`,
+      );
     }
     if (newProject.urlWeb !== undefined) {
-      headlineElements.push(`--> ([Show Online](${newProject.urlWeb}))`);
+      headlineElements.push(
+        `--> ([${i18next.t("keywords.showOnline")}](${newProject.urlWeb}))`,
+      );
     }
 
     lines.push(headlineFrom(headlineElements.join(" "), { level: 3 }));
@@ -147,7 +151,9 @@ const plannedProjectNameCol = (plannedProject: TypesPlannedProject) => {
   }
 
   if (plannedProject.urlWeb !== undefined) {
-    colText.push(` ([Show Online](${plannedProject.urlWeb}))`);
+    colText.push(
+      ` ([${i18next.t("keywords.showOnline")}](${plannedProject.urlWeb}))`,
+    );
   }
 
   return colText.join("");
@@ -194,11 +200,11 @@ export const generatePlannedProjects = () => {
     linebreak(),
     tableFrom(
       [
-        "📦 Projects",
-        "🎉 State",
-        "✔️ Build State",
-        "🛎 Issues",
-        "📬 Pull requests",
+        `📦 ${i18next.t("keywords.projects")}`,
+        `🎉 ${i18next.t("keywords.state")}`,
+        `✔️ ${i18next.t("keywords.buildState")}`,
+        `🛎 ${i18next.t("keywords.issuesGithub")}`,
+        `📬 ${i18next.t("keywords.pullRequests")}`,
       ],
       plannedProjects.map((plannedProject): string[] => [
         plannedProjectNameCol(plannedProject),
