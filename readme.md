@@ -3,20 +3,6 @@
 
 <p><img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" /></p>
 
-## 🆕 New Project
-
-### 🔏 KeePass Plugin Collection
-
-*Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.*\
-**When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.**
-
-**Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.**
-
-**And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”***
-
-**That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)**
-
-
 ## ℹ️ Info
 
 - 👨‍💻 **About me**:
@@ -31,6 +17,20 @@
 - 🏊 **Hobbies**:
   - 🥁 Music
   - 📷 Photography
+
+
+## 🆕 New Project
+
+### 🔏 KeePass Plugin Collection
+
+*Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.*\
+**When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.**
+
+**Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.**
+
+**And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”***
+
+**That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)**
 
 
 ## 🚧 Planned Projects
