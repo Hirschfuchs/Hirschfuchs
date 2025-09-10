@@ -6,18 +6,18 @@
 ## ℹ️ Infos
 
 - 👨‍💻 **Über mich**:
-  - Code Craftsman at heart 🤍
-  - Engaged 💍
+  - Code Craftsman von Herzen 🤍
+  - Verlobt 💍
   - Atheist ⚛️
-  - Teetotaler 🍻
+  - Antialkoholiker 🍻
 
 - 🧑‍💼 **Ehrenamtliche Arbeiten**:
-  - 🧭 [Vice Chairperson Jusos Coburg](https://www.instagram.com/jusos_coburg/)
+  - 🧭 [Stellvertretender Vorstandsvorsitzender Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 
 - 🏊 **Hobbys**:
-  - 🥁 Music
-  - 🎲 Boardgames
-  - 📷 Photography
+  - 🥁 Musik
+  - 🎲 Brettspiele
+  - 📷 Fotografie
 
 
 ## 🆕 Neues Projekt

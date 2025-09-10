@@ -50,5 +50,21 @@
     "planned": "Planned",
     "wip": "Work in Progress",
     "paused": "Paused"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "Atheist",
+      "craftsman": "Code Craftsman at heart",
+      "engaged": "Engaged",
+      "teetotaler": "Teetotaler"
+    },
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Vice Chairperson Jusos Coburg"
+    },
+    "hobbies": {
+      "music": "Music",
+      "boardgames": "Boardgames",
+      "photography": "Photography"
+    }
   }
 }
