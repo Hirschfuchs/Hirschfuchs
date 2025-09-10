@@ -50,5 +50,21 @@
     "planned": "Geplant",
     "wip": "In Arbeit",
     "paused": "Pausiert"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "Atheist",
+      "craftsman": "Code Craftsman von Herzen",
+      "engaged": "Verlobt",
+      "teetotaler": "Antialkoholiker"
+    },
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Stellvertretender Vorstandsvorsitzender Jusos Coburg"
+    },
+    "hobbies": {
+      "music": "Musik",
+      "boardgames": "Brettspiele",
+      "photography": "Fotografie"
+    }
   }
 }

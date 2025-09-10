@@ -20,7 +20,7 @@ export const generateInfos = () => {
   if (info.aboutMe && info.aboutMe.length > 0) {
     const aboutMePoints: string[] = [];
     info.aboutMe.forEach((aboutMeInfo) => {
-      aboutMePoints.push(`${aboutMeInfo.name} ${aboutMeInfo.emoji}`);
+      aboutMePoints.push(`${i18next.t(aboutMeInfo.name)} ${aboutMeInfo.emoji}`);
     });
 
     infoItems.push(
@@ -31,10 +31,12 @@ export const generateInfos = () => {
   if (info.work) {
     if (info.work.url !== undefined) {
       infoItems.push(
-        `🔭 I’m currently working at [${info.work.name}](${info.work.url})`,
+        `🔭 I’m currently working at [${i18next.t(info.work.name)}](${info.work.url})`,
       );
     } else {
-      infoItems.push(`🔭 I’m currently working at ${info.work.name}`);
+      infoItems.push(
+        `🔭 I’m currently working at ${i18next.t(info.work.name)}`,
+      );
     }
   }
 
@@ -43,10 +45,10 @@ export const generateInfos = () => {
     info.voluntaryWork.forEach((voluntaryWork) => {
       if (voluntaryWork.url !== undefined) {
         voluntaryWorkPoints.push(
-          `🧭 [${voluntaryWork.name}](${voluntaryWork.url})`,
+          `🧭 [${i18next.t(voluntaryWork.name)}](${voluntaryWork.url})`,
         );
       } else {
-        voluntaryWorkPoints.push(`🧭 ${voluntaryWork.name}`);
+        voluntaryWorkPoints.push(`🧭 ${i18next.t(voluntaryWork.name)}`);
       }
     });
 
@@ -58,7 +60,7 @@ export const generateInfos = () => {
   if (info.hobbies && info.hobbies.length > 0) {
     const hobbiesPoints: string[] = [];
     info.hobbies.forEach((hobby) => {
-      hobbiesPoints.push(`${hobby.emoji} ${hobby.name}`);
+      hobbiesPoints.push(`${hobby.emoji} ${i18next.t(hobby.name)}`);
     });
 
     infoItems.push(

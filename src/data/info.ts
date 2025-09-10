@@ -2,20 +2,20 @@ import { Info } from "../types/typesInfo";
 
 export const info: Info = {
   aboutMe: [
-    { name: "Code Craftsman at heart", emoji: "🤍" },
-    { name: "Engaged", emoji: "💍" },
-    { name: "Atheist", emoji: "⚛️" },
-    { name: "Teetotaler", emoji: "🍻" },
+    { name: "infoSection.aboutMe.craftsman", emoji: "🤍" },
+    { name: "infoSection.aboutMe.engaged", emoji: "💍" },
+    { name: "infoSection.aboutMe.atheist", emoji: "⚛️" },
+    { name: "infoSection.aboutMe.teetotaler", emoji: "🍻" },
   ],
   voluntaryWork: [
     {
-      name: "Vice Chairperson Jusos Coburg",
+      name: "infoSection.voluntaryWork.viceChairpersonJusosCoburg",
       url: "https://www.instagram.com/jusos_coburg/",
     },
   ],
   hobbies: [
-    { name: "Music", emoji: "🥁" },
-    { name: "Boardgames", emoji: "🎲" },
-    { name: "Photography", emoji: "📷" },
+    { name: "infoSection.hobbies.music", emoji: "🥁" },
+    { name: "infoSection.hobbies.boardgames", emoji: "🎲" },
+    { name: "infoSection.hobbies.photography", emoji: "📷" },
   ],
 };
