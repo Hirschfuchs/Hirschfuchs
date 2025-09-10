@@ -12,9 +12,11 @@
   "scripts": {
     "generate-readme": "ts-node src/generateReadme.ts",
     "format-all": "prettier -w src/.",
-    "clear-new-flags": "ts-node src/clearNewProjectFlags.ts"
+    "clear-new-flags": "ts-node src/clearNewProjectFlags.ts",
+    "check-translations": "i18n-check -s en --locales src/data/locales -f i18next"
   },
   "devDependencies": {
+    "@lingual/i18n-check": "0.8.7",
     "@types/luxon": "3.7.1",
     "@types/node": "22.18.1",
     "i18next": "25.5.2",
