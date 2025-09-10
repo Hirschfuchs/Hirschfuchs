@@ -2,6 +2,39 @@
   "langName": "Deutsch",
   "headlines": {
     "title": "Hi \uD83D\uDC4B, ich bin Bono",
-    "subtitle": "Softwareentwickler aus Coburg"
+    "subtitle": "Softwareentwickler aus Coburg",
+    "level2": {
+      "info": "Infos",
+      "newSection_one": "Neues Projekt",
+      "newSection_other": "Neue Projekte",
+      "plannedProjects": "Geplante Projekte",
+      "topics": "Themen",
+      "connectWithMe": "Mit mir vernetzen",
+      "languagesAndTools": "Sprachen and Tools"
+    }
+  },
+  "keywords": {
+    "aboutMe": "Über mich",
+    "backend": "Backend",
+    "db": "Datenbanken",
+    "details": "Details",
+    "development": "Entwicklung",
+    "developmentProcess": "Entwicklungsprozess",
+    "didWorkWithThem": "Bereits damit gearbeitet",
+    "docs": "Doku",
+    "favourites": "Favoriten",
+    "frameworks": "Frameworks",
+    "frontend": "Frontend",
+    "furtherLanguages": "Weitere Sprachen",
+    "gaming": "Gaming",
+    "hobbies": "Hobbys",
+    "nonDevTools": "Nicht-Entwicklungstools",
+    "notepads": "Notepads",
+    "os_one": "Betriebssystem",
+    "os_other": "Betriebssysteme",
+    "personalAssistance": "Persönliche Assistenz",
+    "print": "Druck",
+    "tools": "Tools",
+    "voluntaryWork": "Ehrenamtliche Arbeiten"
   }
 }

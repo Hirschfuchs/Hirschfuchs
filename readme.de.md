@@ -3,24 +3,24 @@
 
 <p><img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" /></p>
 
-## ℹ️ Info
+## ℹ️ Infos
 
-- 👨‍💻 **About me**:
+- 👨‍💻 **Über mich**:
   - Code Craftsman at heart 🤍
   - Engaged 💍
   - Atheist ⚛️
   - Teetotaler 🍻
 
-- 🧑‍💼 **Voluntary Work**:
+- 🧑‍💼 **Ehrenamtliche Arbeiten**:
   - 🧭 [Vice Chairperson Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 
-- 🏊 **Hobbies**:
+- 🏊 **Hobbys**:
   - 🥁 Music
   - 🎲 Boardgames
   - 📷 Photography
 
 
-## 🆕 New Project
+## 🆕 Neues Projekt
 
 ### 🔏 KeePass Plugin Collection ([View Repo](https://github.com/Hirschfuchs/keepass-plugins))
 
@@ -34,7 +34,7 @@
 **That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)**
 
 
-## 🚧 Planned Projects
+## 🚧 Geplante Projekte
 
 |📦 Projects|🎉 State|✔️ Build State|🛎 Issues|📬 Pull requests|
 |------|------|------|------|------|
@@ -64,7 +64,7 @@
 - 👣 Wikipedia Poker: A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)
 - 🕎 Stolpersteine Ilmenau: Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)
 - 🎲 GameFrame: A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.
-## 📚 Topics
+## 📚 Themen
 
 - 🌱 I’m currently learning **Rust**
 - 🌱 I’m currently learning **VIM**
@@ -73,7 +73,7 @@
 
 ---
 
-## 🤙 Connect with me:
+## 🤙 Mit mir vernetzen:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/7310362/bono-fox)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bono-f-24a296142)
 [![XING](https://img.shields.io/badge/xing-%23006567.svg?style=for-the-badge&logo=xing&logoColor=white)](https://www.xing.com/profile/Bono_Fox/cv)
@@ -91,8 +91,8 @@
 
 ---
 
-## ⌨️ Languages and Tools:
-### ‍💻 development
+## ⌨️ Sprachen and Tools:
+### ‍💻 Entwicklung
 #### Frontend
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white)
@@ -104,11 +104,11 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-#### DB
+#### Datenbanken
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
-#### Further Languages
+#### Weitere Sprachen
 ![LISP](https://img.shields.io/badge/Lisp-%23000000?style=for-the-badge&logoColor=white)
 ![RUST (still learning)](https://img.shields.io/badge/Rust%20(still%20learning)-%23000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-%234EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
@@ -120,7 +120,7 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-#### Docs & Print
+#### Doku & Druck
 ![Asciidoc](https://img.shields.io/badge/Asciidoc-%23E40046?style=for-the-badge&logo=asciidoctor&logoColor=white)
 ![JasperSoft](https://img.shields.io/badge/JasperSoft-%234892bd?style=for-the-badge&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
@@ -129,19 +129,19 @@
 
 ---
 
-### 🛠️ tools
+### 🛠️ Tools
 #### IDEs: Favoriten
 ![WebStorm](https://img.shields.io/badge/webstorm-%231A1F6C?style=for-the-badge&logo=webstorm&logoColor=%231A1F6C&color=%230068FD)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
-#### IDEs: Did work with them
+#### IDEs: Bereits damit gearbeitet
 ![Visual Studio Code/VSCodium](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=vscodium&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 ![LispWorks](https://img.shields.io/badge/LispWorks-%230A91CB?style=for-the-badge&logoColor=white
 )
 ![NetBeans](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
 
-#### System
+#### Betriebssysteme
 ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
@@ -149,7 +149,7 @@
 #### Notepads
 - ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important)(![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black))
 - ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black) (![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white))
-- ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) (still learning)
+- ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
 
 #### Entwicklungsprozess
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -174,7 +174,7 @@
 
 ---
 
-### 🔨 non-dev-tools
+### 🔨 Nicht-Entwicklungstools
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white)
 
@@ -184,7 +184,7 @@
 
 ---
 
-### 🎮 gaming
+### 🎮 Gaming
 ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
 ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
 
@@ -198,7 +198,7 @@
 
 ---
 
-### 🤖 personal assistance
+### 🤖 Persönliche Assistenz
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Amazon Alexa](https://img.shields.io/badge/amazon%20alexa-52b5f7?style=for-the-badge&logo=amazon%20alexa&logoColor=white)
 
