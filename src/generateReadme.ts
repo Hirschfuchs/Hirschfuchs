@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import i18next from "i18next";
-import I18NexFsBackend from "i18next-fs-backend";
 import {
   generateInfos,
   generateNewProjectsHighlight,
@@ -8,23 +7,13 @@ import {
   generateTopics,
 } from "./dynamicContents";
 import { horizontalLine, linebreak } from "./formatter";
+import { initI18N } from "./initI18n";
 import {
   generateConnectWithMe,
   generateHeader,
   generateLanguagesAndTools,
   generateStats,
 } from "./staticContents";
-
-const initI18N = async () => {
-  console.log("Initialisiere Lokalisierung");
-
-  await i18next.use(I18NexFsBackend).init({
-    lng: "en",
-    backend: {
-      loadPath: "src/data/locales/{{lng}}.json",
-    },
-  });
-};
 
 const generateReadme = async (language?: string) => {
   await i18next.changeLanguage(language ?? "en");
