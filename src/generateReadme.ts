@@ -1,4 +1,6 @@
 import * as fs from "fs";
+import i18next from "i18next";
+import I18NexFsBackend from "i18next-fs-backend";
 import {
   generateInfos,
   generateNewProjectsHighlight,
@@ -13,9 +15,23 @@ import {
   generateStats,
 } from "./staticContents";
 
-const generateReadme = () => {
+const initI18N = async () => {
+  console.log("Initialisiere Lokalisierung");
+
+  await i18next.use(I18NexFsBackend).init({
+    lng: "en",
+    backend: {
+      loadPath: "src/data/locales/{{lng}}.json",
+    },
+  });
+};
+
+const generateReadme = async (language?: string) => {
+  await i18next.changeLanguage(language ?? "en");
+  console.log(`Erzeuge Readme in ${i18next.t("langName")}...`);
+
   const readmeSections: string[] = [
-    generateHeader(),
+    await generateHeader(),
     linebreak(),
     generateInfos(),
     generateNewProjectsHighlight(),
@@ -30,11 +46,27 @@ const generateReadme = () => {
     generateStats(),
   ];
 
-  fs.writeFile("./readme.md", readmeSections.join(""), (err) => {
+  let filename = "readme.md";
+
+  if (language !== undefined) {
+    filename = `readme.${language}.md`;
+  }
+
+  fs.writeFile(`./${filename}`, readmeSections.join(""), (err) => {
     if (err !== null) {
       console.error("Fehler beim Generieren der Readme-Datei!", err);
     }
   });
+
+  console.log(
+    `Readme (${i18next.language}) erfolgreich in ${filename} generiert.`,
+  );
 };
 
-generateReadme();
+const readmeVersions = [undefined, "de"];
+
+initI18N().then(() => {
+  readmeVersions.forEach((language) => {
+    generateReadme(language).finally();
+  });
+});
