@@ -16,6 +16,7 @@
 
 - 🏊 **Hobbies**:
   - 🥁 Music
+  - 🎲 Boardgames
   - 📷 Photography
 
 

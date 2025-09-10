@@ -15,6 +15,7 @@ export const info: Info = {
   ],
   hobbies: [
     { name: "Music", emoji: "🥁" },
+    { name: "Boardgames", emoji: "🎲" },
     { name: "Photography", emoji: "📷" },
   ],
 };
