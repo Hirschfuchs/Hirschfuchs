@@ -17,8 +17,8 @@ const generateReadme = () => {
   const readmeSections: string[] = [
     generateHeader(),
     linebreak(),
-    generateNewProjectsHighlight(),
     generateInfos(),
+    generateNewProjectsHighlight(),
     generatePlannedProjects(),
     generateTopics(),
     horizontalLine(2),

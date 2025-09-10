@@ -11,52 +11,6 @@ import {
 } from "./formatter";
 import { TypesPlannedProject } from "./types/typesPlannedProject";
 
-export const generateNewProjectsHighlight = () => {
-  const lines: string[] = [];
-
-  const newProjects: ReadonlyArray<TypesPlannedProject> = plannedProjects
-    .filter((project) => project.newFlag)
-    .sort((a, b) => {
-      if (a.newFlag && b.newFlag) {
-        if (new Date(a.newFlag.since) < new Date(b.newFlag.since)) {
-          return 1;
-        }
-        if (new Date(a.newFlag.since) > new Date(b.newFlag.since)) {
-          return -1;
-        }
-      }
-      return 0;
-    });
-
-  if (newProjects.length === 0) {
-    return "";
-  }
-
-  if (newProjects.length === 1) {
-    lines.push(headlineFrom("🆕 New Project", { level: 2 }));
-  } else {
-    lines.push(headlineFrom("🆕 New Projects", { level: 2 }));
-  }
-
-  newProjects.forEach((newProject) => {
-    lines.push(
-      headlineFrom(`${newProject.emoji} ${newProject.name}`, { level: 3 }),
-    );
-    // Immer wahr, aber von Compiler nicht erkannt
-    if (newProject.newFlag) {
-      lines.push(
-        `*${newProject.description}*\\`,
-        `**${newProject.newFlag.newDescription.replaceAll("\n", "**\n**").replaceAll("****", "")}**`,
-        "",
-      );
-    }
-  });
-
-  lines.push(linebreak());
-
-  return lines.join("\n");
-};
-
 export const generateInfos = () => {
   const lines: string[] = [];
 
@@ -115,6 +69,52 @@ export const generateInfos = () => {
   );
 
   return lines.join("");
+};
+
+export const generateNewProjectsHighlight = () => {
+  const lines: string[] = [];
+
+  const newProjects: ReadonlyArray<TypesPlannedProject> = plannedProjects
+    .filter((project) => project.newFlag)
+    .sort((a, b) => {
+      if (a.newFlag && b.newFlag) {
+        if (new Date(a.newFlag.since) < new Date(b.newFlag.since)) {
+          return 1;
+        }
+        if (new Date(a.newFlag.since) > new Date(b.newFlag.since)) {
+          return -1;
+        }
+      }
+      return 0;
+    });
+
+  if (newProjects.length === 0) {
+    return "";
+  }
+
+  if (newProjects.length === 1) {
+    lines.push(headlineFrom("🆕 New Project", { level: 2 }));
+  } else {
+    lines.push(headlineFrom("🆕 New Projects", { level: 2 }));
+  }
+
+  newProjects.forEach((newProject) => {
+    lines.push(
+      headlineFrom(`${newProject.emoji} ${newProject.name}`, { level: 3 }),
+    );
+    // Immer wahr, aber von Compiler nicht erkannt
+    if (newProject.newFlag) {
+      lines.push(
+        `*${newProject.description}*\\`,
+        `**${newProject.newFlag.newDescription.replaceAll("\n", "**\n**").replaceAll("****", "")}**`,
+        "",
+      );
+    }
+  });
+
+  lines.push(linebreak());
+
+  return lines.join("\n");
 };
 
 const plannedProjectNameCol = (plannedProject: TypesPlannedProject) => {
