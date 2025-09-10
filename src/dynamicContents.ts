@@ -99,9 +99,16 @@ export const generateNewProjectsHighlight = () => {
   }
 
   newProjects.forEach((newProject) => {
-    lines.push(
-      headlineFrom(`${newProject.emoji} ${newProject.name}`, { level: 3 }),
-    );
+    let headlineElements = [`${newProject.emoji} ${newProject.name}`];
+
+    if (newProject.urlRepo !== undefined) {
+      headlineElements.push(`([View Repo](${newProject.urlRepo}))`);
+    }
+    if (newProject.urlWeb !== undefined) {
+      headlineElements.push(`--> ([Show Online](${newProject.urlWeb}))`);
+    }
+
+    lines.push(headlineFrom(headlineElements.join(" "), { level: 3 }));
     // Immer wahr, aber von Compiler nicht erkannt
     if (newProject.newFlag) {
       lines.push(
@@ -134,7 +141,7 @@ const plannedProjectNameCol = (plannedProject: TypesPlannedProject) => {
   }
 
   if (plannedProject.urlWeb !== undefined) {
-    colText.push(` ([View online](${plannedProject.urlWeb}))`);
+    colText.push(` ([Show Online](${plannedProject.urlWeb}))`);
   }
 
   return colText.join("");
