@@ -16,6 +16,7 @@
   "keywords": {
     "aboutMe": "Über mich",
     "backend": "Backend",
+    "buildState": "Build Status",
     "db": "Datenbanken",
     "details": "Details",
     "development": "Entwicklung",
@@ -28,13 +29,26 @@
     "furtherLanguages": "Weitere Sprachen",
     "gaming": "Gaming",
     "hobbies": "Hobbys",
+    "issuesGithub": "Issues",
     "nonDevTools": "Nicht-Entwicklungstools",
     "notepads": "Notepads",
     "os_one": "Betriebssystem",
     "os_other": "Betriebssysteme",
     "personalAssistance": "Persönliche Assistenz",
     "print": "Druck",
+    "projects": "Projekte",
+    "pullRequests": "Pull Requests",
+    "showOnline": "Online anzeigen",
+    "state": "Status",
     "tools": "Tools",
+    "viewRepo": "Repository anzeigen",
     "voluntaryWork": "Ehrenamtliche Arbeiten"
+  },
+  "states": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "planned": "Geplant",
+    "wip": "In Arbeit",
+    "paused": "Pausiert"
   }
 }
