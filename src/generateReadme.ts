@@ -1,9 +1,4 @@
-import {
-  generateConnectWithMe,
-  generateHeader,
-  generateLanguagesAndTools,
-  generateStats,
-} from "./staticContents";
+import * as fs from "fs";
 import {
   generateInfos,
   generateNewProjectsHighlight,
@@ -11,7 +6,12 @@ import {
   generateTopics,
 } from "./dynamicContents";
 import { horizontalLine, linebreak } from "./formatter";
-import * as fs from "fs";
+import {
+  generateConnectWithMe,
+  generateHeader,
+  generateLanguagesAndTools,
+  generateStats,
+} from "./staticContents";
 
 const generateReadme = () => {
   const readmeSections: string[] = [

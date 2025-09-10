@@ -1,5 +1,5 @@
-import { TypesPlannedProject } from "../types/typesPlannedProject";
 import { ProjectStates } from "../enums/projectStates";
+import { TypesPlannedProject } from "../types/typesPlannedProject";
 
 export const plannedProjects: TypesPlannedProject[] = [
   {

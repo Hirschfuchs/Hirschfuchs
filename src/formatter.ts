@@ -1,7 +1,7 @@
 import { ProjectStates } from "./enums/projectStates";
+import { TopicTypes } from "./enums/TopicTypes";
 import { stateDescription } from "./types/state";
 import { Topic } from "./types/typesTopics";
-import { TopicTypes } from "./enums/TopicTypes";
 
 export type HeadlineConfiguration = {
   level?: number;
