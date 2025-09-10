@@ -27,7 +27,7 @@ export const generateConnectWithMe = () => {
   const lines: string[] = [];
 
   lines.push(
-    headlineFrom("Connect with me:", { level: 2 }),
+    headlineFrom("🤙 Connect with me:", { level: 2 }),
     "[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/7310362/bono-fox)\n",
     "[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bono-f-24a296142)\n",
     "[![XING](https://img.shields.io/badge/xing-%23006567.svg?style=for-the-badge&logo=xing&logoColor=white)](https://www.xing.com/profile/Bono_Fox/cv)\n",
@@ -50,7 +50,7 @@ export const generateLanguagesAndTools = () => {
   const lines: string[] = [];
 
   lines.push(
-    headlineFrom("Languages and Tools:", { level: 2 }),
+    headlineFrom("⌨️ Languages and Tools:", { level: 2 }),
     headlineFrom("‍💻 development", { level: 3 }),
     headlineFrom("Frontend", { level: 4 }),
     "![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)\n",

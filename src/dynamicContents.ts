@@ -33,9 +33,9 @@ export const generateNewProjectsHighlight = () => {
   }
 
   if (newProjects.length === 1) {
-    lines.push(headlineFrom("Neues Projekt", { level: 2 }));
+    lines.push(headlineFrom("🆕 Neues Projekt", { level: 2 }));
   } else {
-    lines.push(headlineFrom("Neue Projekte", { level: 2 }));
+    lines.push(headlineFrom("🆕 Neue Projekte", { level: 2 }));
   }
 
   newProjects.forEach((newProject) => {
@@ -108,7 +108,7 @@ export const generateInfos = () => {
   }
 
   lines.push(
-    headlineFrom("Infos", { level: 2 }),
+    headlineFrom("ℹ️ Infos", { level: 2 }),
     linebreak(),
     listFrom(infoItems),
     linebreak(),
@@ -175,7 +175,7 @@ export const generatePlannedProjects = () => {
   const lines: string[] = [];
 
   lines.push(
-    headlineFrom("Planned Projects", { level: 2 }),
+    headlineFrom("🚧 Planned Projects", { level: 2 }),
     linebreak(),
     tableFrom(
       [
@@ -210,7 +210,7 @@ export const generateTopics = () => {
   const lines: string[] = [];
 
   lines.push(
-    headlineFrom("Topics", { level: 2 }),
+    headlineFrom("📚 Topics", { level: 2 }),
     linebreak(),
     listFrom(topics.map((topic) => topicFrom(topic))),
   );

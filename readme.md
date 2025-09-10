@@ -3,7 +3,7 @@
 
 <p><img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" /></p>
 
-## Neues Projekt
+## 🆕 Neues Projekt
 
 ### 🔏 KeePass Plugin Collection
 
@@ -17,7 +17,7 @@
 **That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)**
 
 
-## Infos
+## ℹ️ Infos
 
 - 👨‍💻 **About me**:
   - Code Craftsman at heart 🤍
@@ -33,7 +33,7 @@
   - 📷 Photography
 
 
-## Planned Projects
+## 🚧 Planned Projects
 
 |📦 Projects|🎉 State|✔️ Build State|🛎 Issues|📬 Pull requests|
 |------|------|------|------|------|
@@ -63,7 +63,7 @@
 - 👣 Wikipedia Poker: A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)
 - 🕎 Stolpersteine Ilmenau: Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)
 - 🎲 GameFrame: A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.
-## Topics
+## 📚 Topics
 
 - 🌱 I’m currently learning **Rust**
 - 🌱 I’m currently learning **VIM**
@@ -72,7 +72,7 @@
 
 ---
 
-## Connect with me:
+## 🤙 Connect with me:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/7310362/bono-fox)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bono-f-24a296142)
 [![XING](https://img.shields.io/badge/xing-%23006567.svg?style=for-the-badge&logo=xing&logoColor=white)](https://www.xing.com/profile/Bono_Fox/cv)
@@ -90,7 +90,7 @@
 
 ---
 
-## Languages and Tools:
+## ⌨️ Languages and Tools:
 ### ‍💻 development
 #### Frontend
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
