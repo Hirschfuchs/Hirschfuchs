@@ -1,0 +1,132 @@
+{
+  "langName": "हिन्दी",
+  "headlines": {
+    "viewInOtherLangs": "अन्य भाषाओं में देखें",
+    "title": "नमस्ते \uD83D\uDC4B, मैं Bono हूँ",
+    "subtitle": "जर्मनी से सॉफ़्टवेयर डेवलपर",
+    "level2": {
+      "info": "जानकारी",
+      "newSection_one": "नया प्रोजेक्ट",
+      "newSection_other": "नए प्रोजेक्ट्स",
+      "plannedProjects": "योजनाबद्ध प्रोजेक्ट्स",
+      "topics": "विषय",
+      "connectWithMe": "मुझसे जुड़ें",
+      "languagesAndTools": "भाषाएँ और उपकरण"
+    }
+  },
+  "keywords": {
+    "aboutMe": "मेरे बारे में",
+    "backend": "बैकएंड",
+    "buildState": "बिल्ड स्थिति",
+    "db": "डेटाबेस",
+    "details": "विवरण",
+    "development": "डेवलपमेंट",
+    "developmentProcess": "डेवलपमेंट प्रक्रिया",
+    "didWorkWithThem": "पहले काम किया है",
+    "docs": "डॉक्यूमेंट्स",
+    "favourites": "पसंदीदा",
+    "frameworks": "फ़्रेमवर्क्स",
+    "frontend": "फ़्रंटएंड",
+    "furtherLanguages": "अन्य भाषाएँ",
+    "gaming": "गेमिंग",
+    "hobbies": "शौक",
+    "issuesGithub": "Issues",
+    "nonDevTools": "गैर-डेवलपमेंट टूल्स",
+    "notepads": "नोटपैड्स",
+    "noWebsiteYet": "अभी तक वेबसाइट नहीं",
+    "os_one": "ऑपरेटिंग सिस्टम",
+    "os_other": "ऑपरेटिंग सिस्टम्स",
+    "personalAssistance": "व्यक्तिगत सहायता",
+    "print": "प्रिंट",
+    "projects": "प्रोजेक्ट्स",
+    "pullRequests": "Pull Requests",
+    "showOnline": "ऑनलाइन देखें",
+    "state": "स्थिति",
+    "tools": "उपकरण",
+    "viewRepo": "रिपॉजिटरी देखें",
+    "voluntaryWork": "स्वैच्छिक कार्य"
+  },
+  "states": {
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "planned": "योजना बनाई गई",
+    "wip": "काम प्रगति पर",
+    "paused": "रुका हुआ"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "नास्तिक",
+      "craftsman": "दिल से कोड क्राफ्ट्समैन",
+      "engaged": "सगाई हुई",
+      "teetotaler": "नशामुक्त"
+    },
+    "workingAt": "वर्तमान में काम कर रहा हूँ:",
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Jusos Coburg के उपाध्यक्ष"
+    },
+    "hobbies": {
+      "music": "संगीत",
+      "boardgames": "बोर्ड गेम्स",
+      "photography": "फ़ोटोग्राफ़ी"
+    }
+  },
+  "topics": {
+    "currentlyLearning": "वर्तमान में सीख रहा हूँ"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "GitHub Actions के लिए Set-Variable",
+      "description": "रिपॉजिटरी वेरिएबल्स सेट करने के लिए GitHub Action"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "स्थानीय संगीतकार की वेबसाइट। पुराने कोड में तकनीकी गलतियाँ हैं → धीरे-धीरे फिर से बनाई जाएगी।"
+    },
+    "githubStartingpage": {
+      "name": "GitHub स्टार्टिंग पेज",
+      "description": "यह पेज (GitHub पोर्टफोलियो को डायनामिक रूप से जनरेट करने का प्रोजेक्ट)",
+      "newDescription": "यह पेज अब कई भाषाओं में उपलब्ध है। आप ऊपर दाईं ओर से भाषा चुन सकते हैं।\n\nइसके अलावा, अतिरिक्त जानकारी जोड़ी गई है और अब नए प्रोजेक्ट्स को प्रोजेक्ट ओवरव्यू के ऊपर दिखाया जाता है।"
+    },
+    "keepassPlugins": {
+      "name": "KeePass प्लगइन संग्रह",
+      "description": "उपयोगी KeePass प्लगइनों का व्यक्तिगत संग्रह, सार्वजनिक रूप से साझा किया गया। स्वचालित अपडेट।",
+      "newDescription": "KeePass डेटाबेस का उपयोग करते समय, मैंने देखा कि KeePass स्वयं मेरे पैकेज मैनेजर के माध्यम से अपडेट होता है, लेकिन प्लगइनों को मैन्युअली प्रबंधित करना पड़ता है।\n\nइसलिए मैंने उन्हें एक अलग फ़ोल्डर में स्थानांतरित करने का विचार किया, ताकि मैं अपने सभी उपकरणों पर एक ही प्लगइन्स का उपयोग कर सकूँ।\n\nफिर सोचा: 'अगर मैं यह कर ही रहा हूँ, तो क्यों न इसे GitHub पर डाल दूँ, ताकि कहीं से भी एक्सेस किया जा सके — और शायद यह दूसरों के लिए भी उपयोगी हो सकता है।'\n\nइसके बाद क्लासिक प्रोग्रामर सिंड्रोम शुरू हुआ: *'यह Renovate के साथ प्रबंधनीय होना चाहिए — अगर मैं प्लगइन्स को मशीन-पठनीय बनाऊँ और उन्हें स्वचालित रूप से डाउनलोड करूँ।'*\n\nयहीं से यह प्रोजेक्ट शुरू हुआ। वर्तमान में यह लगभग 80% पूरा हो चुका है और मैं परिणाम से काफी खुश हूँ। :)"
+    },
+    "portfolio": {
+      "name": "पोर्टफोलियो",
+      "description": "स्व-प्रचार ^^"
+    },
+    "vimfo": {
+      "name": "Vimfo",
+      "description": "VIM कीबाइंडिंग्स के लिए एक इंटरएक्टिव चीटशीट"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "TypeScript में डायनामिक बिल्डर पैटर्न का इम्प्लीमेंटेशन"
+    },
+    "notfallapp": {
+      "name": "आपातकालीन ऐप",
+      "description": "आपातकालीन नंबर और महत्वपूर्ण जानकारी तक तेज़ी से पहुंचने के लिए वेब एप्लिकेशन"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket प्लानर",
+      "description": "निर्धारित अधिकतम यात्रा समय के भीतर Deutschlandticket के लिए उपलब्ध ट्रेन यात्राओं की गणना"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Gitmoji Changelog Generator",
+      "description": "कीवर्ड की जगह Gitmoji के साथ काम करने वाला Changelog Generator का फोर्क"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia पोकर",
+      "description": "एक खेल जिसमें दो Wikipedia लेखों के बीच का सबसे छोटा रास्ता ढूंढना होता है (Six Degrees of Wikipedia के समान)"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Ilmenau Stolpersteine का अवलोकन",
+      "description": "Ilmenau में Stolpersteine (होलोकॉस्ट पीड़ितों की स्मृति में बने पत्थर) का अवलोकन"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "वेब ब्राउज़र में चलने वाला एक बोर्ड गेम सिमुलेटर। विश्वविद्यालय परियोजना थी, लेकिन वर्तमान में इसका रखरखाव या विकास नहीं किया जा रहा है।\nसाथ ही, 300 से अधिक संबंधित JIRA टिकट और सभी जुड़े संसाधन हटा दिए गए हैं।\nइसके बजाय BoardGameArena का उपयोग करें — उन्होंने मेरी कल्पना को साकार किया :)"
+    }
+  }
+}
