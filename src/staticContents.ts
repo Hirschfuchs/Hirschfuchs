@@ -33,8 +33,8 @@ export const generateHeader = async () => {
     { language: "ko", file: "readme.ko.md", emoji: "🇰🇷" },
     { language: "hi", file: "readme.hi.md", emoji: "🇮🇳" },
     {
-      language: "de-ba",
-      file: "readme.de-ba.md",
+      language: "de-DE-BA",
+      file: "readme.de-DE-BA.md",
       emoji: "🏴󠁤󠁥󠁢󠁹󠁿",
     },
   ].forEach((availableLanguage) => {
