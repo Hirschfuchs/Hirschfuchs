@@ -1,8 +1,8 @@
-<h1 align="right" style="font-size: 14px">他の言語で表示</h1>
-<p align="right"><a href="readme.md">🇬🇧</a> <a href="readme.de.md">🇩🇪</a> <a href="readme.it.md">🇮🇹</a> <a href="readme.fr.md">🇫🇷</a> <a href="readme.es.md">🇪🇸</a> <a href="readme.zh.md">🇹🇼</a> <a href="readme.ko.md">🇰🇷</a> <a href="readme.hi.md">🇮🇳</a> <a href="readme.de-ba.md">🏴󠁤󠁥󠁢󠁹󠁿</a></p>
-
 <h1 align="center">こんにちは 👋、Bonoです</h1>
 <h3 align="center">ドイツ出身のソフトウェア開発者</h3>
+
+<h3 align="right">他の言語で表示</h3>
+<p align="right"><a href="readme.md">🇬🇧</a> <a href="readme.de.md">🇩🇪</a> <a href="readme.it.md">🇮🇹</a> <a href="readme.fr.md">🇫🇷</a> <a href="readme.es.md">🇪🇸</a> <a href="readme.zh.md">🇹🇼</a> <a href="readme.ko.md">🇰🇷</a> <a href="readme.hi.md">🇮🇳</a> <a href="readme.de-ba.md">🏴󠁤󠁥󠁢󠁹󠁿</a></p>
 
 <p><img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" /></p>
 

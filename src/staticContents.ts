@@ -9,6 +9,18 @@ import {
 export const generateHeader = async () => {
   const lines: string[] = [];
 
+  lines.push(
+    headlineFrom(i18next.t("headlines.title"), {
+      level: 1,
+      alignment: "center",
+    }),
+    headlineFrom(i18next.t("headlines.subtitle"), {
+      level: 3,
+      alignment: "center",
+    }),
+    linebreak(),
+  );
+
   const languageSelection: string[] = [];
   [
     { language: "en", file: "readme.md", emoji: "🇬🇧" },
@@ -34,24 +46,14 @@ export const generateHeader = async () => {
   });
   lines.push(
     headlineFrom(i18next.t("headlines.viewInOtherLangs"), {
-      level: 1,
+      level: 3,
       alignment: "right",
-      size: 14,
     }),
     paragraphFrom(languageSelection.join(" "), { alignment: "right" }),
     "\n",
   );
 
   lines.push(
-    headlineFrom(i18next.t("headlines.title"), {
-      level: 1,
-      alignment: "center",
-    }),
-    headlineFrom(i18next.t("headlines.subtitle"), {
-      level: 3,
-      alignment: "center",
-    }),
-    linebreak(),
     paragraphFrom(
       '<img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" />',
     ),
