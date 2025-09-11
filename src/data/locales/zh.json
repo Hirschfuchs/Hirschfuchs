@@ -1,0 +1,132 @@
+{
+  "langName": "中文（繁體，台灣）",
+  "headlines": {
+    "viewInOtherLangs": "查看其他語言",
+    "title": "你好 \uD83D\uDC4B，我是 Bono",
+    "subtitle": "來自德國的軟體開發者",
+    "level2": {
+      "info": "資訊",
+      "newSection_one": "新專案",
+      "newSection_other": "新專案",
+      "plannedProjects": "計畫中的專案",
+      "topics": "主題",
+      "connectWithMe": "與我聯繫",
+      "languagesAndTools": "語言與工具"
+    }
+  },
+  "keywords": {
+    "aboutMe": "關於我",
+    "backend": "後端",
+    "buildState": "建置狀態",
+    "db": "資料庫",
+    "details": "詳細資訊",
+    "development": "開發",
+    "developmentProcess": "開發流程",
+    "didWorkWithThem": "曾經使用過",
+    "docs": "文件",
+    "favourites": "收藏",
+    "frameworks": "框架",
+    "frontend": "前端",
+    "furtherLanguages": "其他語言",
+    "gaming": "遊戲",
+    "hobbies": "嗜好",
+    "issuesGithub": "問題（Issues）",
+    "nonDevTools": "非開發工具",
+    "notepads": "筆記本",
+    "noWebsiteYet": "尚無網站",
+    "os_one": "作業系統",
+    "os_other": "作業系統",
+    "personalAssistance": "個人助理",
+    "print": "列印",
+    "projects": "專案",
+    "pullRequests": "Pull Requests",
+    "showOnline": "線上查看",
+    "state": "狀態",
+    "tools": "工具",
+    "viewRepo": "查看倉庫",
+    "voluntaryWork": "志工工作"
+  },
+  "states": {
+    "active": "活躍",
+    "inactive": "不活躍",
+    "planned": "計畫中",
+    "wip": "進行中",
+    "paused": "暫停"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "無神論者",
+      "craftsman": "熱愛程式設計的程式工匠",
+      "engaged": "已訂婚",
+      "teetotaler": "不飲酒者"
+    },
+    "workingAt": "目前就職於",
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Coburg Jusos 副主席"
+    },
+    "hobbies": {
+      "music": "音樂",
+      "boardgames": "桌遊",
+      "photography": "攝影"
+    }
+  },
+  "topics": {
+    "currentlyLearning": "目前正在學習"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "Github Actions 變數設定",
+      "description": "用於設定倉庫變數的 Github Action"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "一位本地音樂人的網站。包含一些早期開發中的技術錯誤 -> 正在逐步重建。"
+    },
+    "githubStartingpage": {
+      "name": "GitHub 首頁",
+      "description": "此頁面（用於動態生成 GitHub 個人作品集的專案）",
+      "newDescription": "此頁面現在支援多種語言。您可以在右上角選擇語言。\n\n此外，頁面新增了更多資訊，並在專案概覽上方顯示新專案。"
+    },
+    "keepassPlugins": {
+      "name": "KeePass 外掛程式集合",
+      "description": "個人收集的實用 KeePass 外掛程式，與大家分享，並提供自動更新。",
+      "newDescription": "在使用 KeePass 資料庫時，我注意到 KeePass 主程式可以透過套件管理工具更新，但外掛程式需要手動維護。於是我想到將外掛程式移到一個獨立的資料夾，這樣我就可以在不同設備間使用相同的外掛程式。\n\n然後我又想：既然如此，不如將它放到 GitHub 上，這樣我可以隨時訪問，也可以與其他人分享，或許有人會覺得有用。\n\n接著，我陷入了典型的程式設計師症候群：*「如果將外掛程式做成機器可讀並自動下載，那就可以用 Renovate 來維護了。」*\n\n於是，這個專案就誕生了。目前進度大約 80%，我對結果很滿意。:)"
+    },
+    "portfolio": {
+      "name": "作品集",
+      "description": "自我推廣 ^^"
+    },
+    "vimfo": {
+      "name": "Vimfo",
+      "description": "一個互動式的 VIM 快捷鍵速查表"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "在 TypeScript 中實現動態建構器模式"
+    },
+    "notfallapp": {
+      "name": "緊急應用",
+      "description": "用於快速訪問緊急電話和相關資訊的 Web 應用程式"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket 規劃器",
+      "description": "計算使用 Deutschlandticket 在設定的最大旅行時間內可行的火車路線"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Gitmoji 更新日誌產生器",
+      "description": "基於 Gitmoji 而不是關鍵字的更新日誌產生器分支專案"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia Poker",
+      "description": "一個遊戲，目標是在兩個 Wikipedia 條目之間找到最短路徑（類似於 'Six Degrees of Wikipedia'）"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Ilmenau 紀念石概覽",
+      "description": "Ilmenau 城市中 Stolpersteine（絆腳石紀念碑）的概覽"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "一個在瀏覽器中運行的桌遊模擬器。大學專案，目前不再維護或繼續開發。\n此外，超過 300 個相關的 JIRA 任務及所有關聯資源已被刪除。\n現在最好使用 BoardGameArena，他們已經實現了我最初的願景 :)"
+    }
+  }
+}
