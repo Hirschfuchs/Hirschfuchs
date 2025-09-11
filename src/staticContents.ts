@@ -17,6 +17,7 @@ export const generateHeader = async () => {
     { language: "fr", file: "readme.fr.md", emoji: "🇫🇷" },
     { language: "es", file: "readme.es.md", emoji: "🇪🇸" },
     { language: "zh", file: "readme.zh.md", emoji: "🇹🇼" },
+    { language: "ja", file: "readme.ja.md", emoji: "🇯🇵" },
   ].forEach((availableLanguage) => {
     if (availableLanguage.language !== i18next.language) {
       languageSelection.push(
