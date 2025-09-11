@@ -124,8 +124,8 @@ export const generateNewProjectsHighlight = () => {
     // Immer wahr, aber von Compiler nicht erkannt
     if (newProject.newFlag) {
       lines.push(
-        `*${i18next.t(newProject.description)}*\\`,
-        `**${i18next.t(newProject.newFlag.newDescription).replaceAll("\n", "**\n**").replaceAll("****", "")}**`,
+        `> ${i18next.t(newProject.description)}\n`,
+        `${headlineFrom("NEU", { level: 4 })}${i18next.t(newProject.newFlag.newDescription).replaceAll("****", "")}`,
         "",
       );
     }
