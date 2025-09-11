@@ -1,0 +1,132 @@
+{
+  "langName": "한국어",
+  "headlines": {
+    "viewInOtherLangs": "다른 언어로 보기",
+    "title": "안녕하세요 \uD83D\uDC4B, 저는 Bono입니다",
+    "subtitle": "독일 출신의 소프트웨어 개발자",
+    "level2": {
+      "info": "정보",
+      "newSection_one": "새 프로젝트",
+      "newSection_other": "새 프로젝트",
+      "plannedProjects": "계획된 프로젝트",
+      "topics": "주제",
+      "connectWithMe": "연락하기",
+      "languagesAndTools": "언어 및 도구"
+    }
+  },
+  "keywords": {
+    "aboutMe": "소개",
+    "backend": "백엔드",
+    "buildState": "빌드 상태",
+    "db": "데이터베이스",
+    "details": "세부 정보",
+    "development": "개발",
+    "developmentProcess": "개발 프로세스",
+    "didWorkWithThem": "사용 경험 있음",
+    "docs": "문서",
+    "favourites": "즐겨찾기",
+    "frameworks": "프레임워크",
+    "frontend": "프론트엔드",
+    "furtherLanguages": "추가 언어",
+    "gaming": "게임",
+    "hobbies": "취미",
+    "issuesGithub": "Issues",
+    "nonDevTools": "비개발 도구",
+    "notepads": "메모장",
+    "noWebsiteYet": "웹사이트 없음",
+    "os_one": "운영 체제",
+    "os_other": "운영 체제",
+    "personalAssistance": "개인 지원",
+    "print": "인쇄",
+    "projects": "프로젝트",
+    "pullRequests": "Pull Requests",
+    "showOnline": "온라인으로 보기",
+    "state": "상태",
+    "tools": "도구",
+    "viewRepo": "리포지토리 보기",
+    "voluntaryWork": "자원 봉사 활동"
+  },
+  "states": {
+    "active": "활성",
+    "inactive": "비활성",
+    "planned": "계획됨",
+    "wip": "진행 중",
+    "paused": "일시 중지"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "무신론자",
+      "craftsman": "열정을 가진 코드 장인",
+      "engaged": "약혼함",
+      "teetotaler": "금주자"
+    },
+    "workingAt": "현재 근무지:",
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Jusos Coburg 부회장"
+    },
+    "hobbies": {
+      "music": "음악",
+      "boardgames": "보드게임",
+      "photography": "사진 촬영"
+    }
+  },
+  "topics": {
+    "currentlyLearning": "현재 학습 중"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "GitHub Actions Set-Variable",
+      "description": "리포지토리 변수를 설정하기 위한 GitHub Action"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "지역 음악가의 웹사이트. 과거 개발 시 발생한 기술적 오류가 있어 순차적으로 리뉴얼 예정."
+    },
+    "githubStartingpage": {
+      "name": "GitHub 시작 페이지",
+      "description": "이 페이지 (GitHub 포트폴리오를 동적으로 생성하기 위한 프로젝트)",
+      "newDescription": "이 페이지는 이제 다국어를 지원합니다. 오른쪽 상단에서 언어를 선택할 수 있습니다.\n\n또한 추가 정보가 업데이트되었으며, 프로젝트 개요 위에 새 프로젝트가 표시됩니다."
+    },
+    "keepassPlugins": {
+      "name": "KeePass 플러그인 모음",
+      "description": "유용한 KeePass 플러그인의 개인 모음집, 공개 공유 및 자동 업데이트 지원.",
+      "newDescription": "KeePass 데이터베이스를 사용하면서 본체는 패키지 매니저를 통해 업데이트되지만, 플러그인은 수동으로 관리해야 한다는 점을 발견했습니다.\n\n그래서 플러그인을 별도의 폴더로 옮겨 여러 기기에서 동일한 플러그인을 사용할 수 있도록 했습니다.\n\n그리고 생각했습니다. '어차피 이렇게 할 거라면, GitHub에 올려서 어디서든 접근 가능하게 하고, 필요할 수 있는 다른 사람들과도 공유하자!'\n\n그다음 전형적인 개발자 증후군이 시작되었습니다: *“Renovate로 관리 가능하도록, 플러그인을 기계가 읽을 수 있는 형식으로 정리하고 자동 다운로드하면 되잖아!”*\n\n이렇게 해서 이 프로젝트가 탄생했습니다. 현재 진행률은 약 80%이며, 결과에 매우 만족하고 있습니다. :)"
+    },
+    "portfolio": {
+      "name": "포트폴리오",
+      "description": "자기 홍보 ^^"
+    },
+    "vimfo": {
+      "name": "Vimfo",
+      "description": "VIM 키 바인딩을 확인할 수 있는 인터랙티브 치트시트"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "TypeScript로 동적 빌더 패턴 구현"
+    },
+    "notfallapp": {
+      "name": "긴급 앱",
+      "description": "긴급 전화번호 및 관련 정보에 빠르게 접근할 수 있는 웹 애플리케이션"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket 플래너",
+      "description": "설정된 최대 여행 시간 내에서 Deutschlandticket으로 이용 가능한 기차 연결 계산"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Gitmoji Changelog Generator",
+      "description": "키워드 대신 Gitmoji로 작동하는 Changelog Generator의 포크"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia 포커",
+      "description": "두 Wikipedia 기사 간의 최단 경로를 찾는 게임 (Six Degrees of Wikipedia와 유사)"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Ilmenau Stolpersteine 개요",
+      "description": "Ilmenau의 Stolpersteine(홀로코스트 희생자를 기리기 위한 기념석) 목록"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "웹 브라우저에서 실행되는 보드게임 시뮬레이터. 대학 프로젝트였으나 현재 유지보수 및 개발 중단 상태입니다.\n또한 300개 이상의 관련 JIRA 티켓과 모든 연결된 리소스가 삭제되었습니다.\n현재는 BoardGameArena를 사용하는 것을 권장합니다. 그들이 제 비전을 실현했습니다. :)"
+    }
+  }
+}
