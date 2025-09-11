@@ -1,0 +1,132 @@
+{
+  "langName": "Italiano",
+  "headlines": {
+    "viewInOtherLangs": "Visualizza in altre lingue",
+    "title": "Ciao \uD83D\uDC4B, sono Bono",
+    "subtitle": "Sviluppatore software dalla Germania",
+    "level2": {
+      "info": "Informazioni",
+      "newSection_one": "Nuovo progetto",
+      "newSection_other": "Nuovi progetti",
+      "plannedProjects": "Progetti pianificati",
+      "topics": "Argomenti",
+      "connectWithMe": "Collegati con me",
+      "languagesAndTools": "Linguaggi e strumenti"
+    }
+  },
+  "keywords": {
+    "aboutMe": "Su di me",
+    "backend": "Backend",
+    "buildState": "Stato della build",
+    "db": "Basi di dati",
+    "details": "Dettagli",
+    "development": "Sviluppo",
+    "developmentProcess": "Processo di sviluppo",
+    "didWorkWithThem": "Ho già lavorato con",
+    "docs": "Documentazione",
+    "favourites": "Preferiti",
+    "frameworks": "Framework",
+    "frontend": "Frontend",
+    "furtherLanguages": "Altri linguaggi",
+    "gaming": "Videogiochi",
+    "hobbies": "Hobby",
+    "issuesGithub": "Issues",
+    "nonDevTools": "Strumenti non di sviluppo",
+    "notepads": "Blocchi note",
+    "noWebsiteYet": "Ancora nessun sito web",
+    "os_one": "Sistema operativo",
+    "os_other": "Sistemi operativi",
+    "personalAssistance": "Assistenza personale",
+    "print": "Stampa",
+    "projects": "Progetti",
+    "pullRequests": "Pull request",
+    "showOnline": "Mostra online",
+    "state": "Stato",
+    "tools": "Strumenti",
+    "viewRepo": "Visualizza repository",
+    "voluntaryWork": "Lavoro volontario"
+  },
+  "states": {
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "planned": "Pianificato",
+    "wip": "In lavorazione",
+    "paused": "In pausa"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "Ateo",
+      "craftsman": "Artigiano del codice nel cuore",
+      "engaged": "Fidanzato",
+      "teetotaler": "Astemio"
+    },
+    "workingAt": "Attualmente lavoro presso",
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Vicepresidente Jusos Coburg"
+    },
+    "hobbies": {
+      "music": "Musica",
+      "boardgames": "Giochi da tavolo",
+      "photography": "Fotografia"
+    }
+  },
+  "topics": {
+    "currentlyLearning": "Attualmente sto imparando"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "Set-Variable per Github Actions",
+      "description": "Github Action per impostare variabili nel repository"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "Siti web di un musicista locale. Alcuni errori tecnici dovuti alla mia inesperienza giovanile -> ricostruzione graduale."
+    },
+    "githubStartingpage": {
+      "name": "Pagina iniziale di GitHub",
+      "description": "Questa pagina (progetto per la generazione dinamica di un portfolio GitHub)",
+      "newDescription": "Questa pagina è ora disponibile in più lingue. È possibile selezionare la lingua nell'angolo in alto a destra.\n\nInoltre, è stata arricchita con ulteriori informazioni e ora mostra i nuovi progetti sopra la panoramica dei progetti."
+    },
+    "keepassPlugins": {
+      "name": "Raccolta di plugin KeePass",
+      "description": "Raccolta personale di plugin KeePass utili, condivisa pubblicamente. Aggiornamenti automatici.",
+      "newDescription": "Quando mi sono accorto, lavorando con il mio database KeePass, che KeePass stesso viene aggiornato tramite il mio gestore di pacchetti, mentre i plugin devono essere aggiornati manualmente, mi è venuta l'idea di spostarli in una cartella separata, così da poter usare gli stessi plugin su tutti i miei dispositivi.\n\nPoi ho pensato: se lo faccio comunque, tanto vale caricare tutto su GitHub, così posso accedervi da ovunque e condividerlo con il mondo, nel caso possa essere utile a qualcun altro.\n\nEd è allora che è scattata la classica sindrome del programmatore: *\"Questo dovrebbe essere gestibile con Renovate — se rendo i plugin leggibili dalle macchine e li scarico automaticamente.\"*\n\nCosì è nato questo progetto. Il progresso è ora circa all'80% e sono piuttosto soddisfatto di come sta venendo. :)"
+    },
+    "portfolio": {
+      "name": "Portfolio",
+      "description": "Auto-promozione ^^"
+    },
+    "vimfo": {
+      "name": "Vim-Cheatsheet (Vimfo)",
+      "description": "Un cheatsheet interattivo per i comandi di VIM"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "Implementazione di un pattern builder dinamico in Typescript"
+    },
+    "notfallapp": {
+      "name": "Notfallapp",
+      "description": "Applicazione web per l'accesso rapido a numeri di emergenza e informazioni rilevanti"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Pianificatore Deutschlandticket",
+      "description": "Calcolo delle connessioni ferroviarie disponibili con il Deutschlandticket entro una durata massima di viaggio definita"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Generatore di changelog con Gitmoji",
+      "description": "Fork di un generatore di changelog, ma basato su Gitmoji invece che su parole chiave"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia Poker",
+      "description": "Un gioco in cui bisogna trovare il percorso più breve tra due articoli di Wikipedia (simile a six degrees of Wikipedia)"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Panoramica Stolpersteine Ilmenau",
+      "description": "Panoramica delle Stolpersteine a Ilmenau (progetto per commemorare le vittime dell'Olocausto)"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "Un simulatore di giochi da tavolo nel browser. Progetto universitario, attualmente non mantenuto né sviluppato ulteriormente. Inoltre, oltre 300 ticket JIRA correlati e tutte le risorse collegate sono stati eliminati. Meglio usare BoardGameArena, loro hanno realizzato la mia visione :)"
+    }
+  }
+}
