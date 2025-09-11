@@ -1,5 +1,5 @@
 <h1 align="right" style="font-size: 14px">Visualizza in altre lingue</h1>
-<p align="right"><a href="readme.md">🇬🇧</a> <a href="readme.de.md">🇩🇪</a> <a href="readme.fr.md">🇫🇷</a> <a href="readme.es.md">🇪🇸</a> <a href="readme.zh.md">🇹🇼</a> <a href="readme.ja.md">🇯🇵</a></p>
+<p align="right"><a href="readme.md">🇬🇧</a> <a href="readme.de.md">🇩🇪</a> <a href="readme.fr.md">🇫🇷</a> <a href="readme.es.md">🇪🇸</a> <a href="readme.zh.md">🇹🇼</a> <a href="readme.ja.md">🇯🇵</a> <a href="readme.ko.md">🇰🇷</a></p>
 
 <h1 align="center">Ciao 👋, sono Bono</h1>
 <h3 align="center">Sviluppatore software dalla Germania</h3>
