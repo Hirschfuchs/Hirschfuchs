@@ -119,6 +119,7 @@ export const generateLanguagesAndTools = () => {
     "\n",
     headlineFrom(i18next.t("keywords.frameworks"), { level: 4 }),
     "![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)\n",
+    "![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)\n",
     "![Nx](https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=white)\n",
     "![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)\n",
     "![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F?style=for-the-badge&logo=springboot&logoColor=white)\n",
@@ -198,10 +199,8 @@ export const generateLanguagesAndTools = () => {
     headlineFrom(`🤖 ${i18next.t("keywords.personalAssistance")}`, {
       level: 3,
     }),
+    "![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)\n",
     "![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)\n",
-    "![Amazon Alexa](https://img.shields.io/badge/amazon%20alexa-52b5f7?style=for-the-badge&logo=amazon%20alexa&logoColor=white)\n",
-    "\n",
-    "- But my goal for the near future is building my own system, so that these guys right here become obsolete ;)",
   );
 
   return lines.join("");
