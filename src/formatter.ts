@@ -6,16 +6,29 @@ import { Topic } from "./types/typesTopics";
 export type HeadlineConfiguration = {
   level?: number;
   alignment?: string;
+  size?: number;
 };
 export const headlineFrom = (
   text: string,
   configuration?: HeadlineConfiguration,
 ) => {
   const headlineString: string[] = [];
+  const areAttributesSet =
+    configuration?.alignment !== undefined || configuration?.size !== undefined;
 
-  if (configuration?.alignment !== undefined) {
+  if (areAttributesSet) {
+    const attributes: string[] = [];
+
+    if (configuration?.alignment !== undefined) {
+      attributes.push(`align="${configuration.alignment}"`);
+    }
+
+    if (configuration?.size !== undefined) {
+      attributes.push(`style="font-size: ${configuration.size}px"`);
+    }
+
     headlineString.push(
-      `<h${configuration.level ?? 1} align="${configuration.alignment}">`,
+      `<h${configuration.level ?? 1} ${attributes.join(" ")}>`,
     );
   } else {
     headlineString.push("#".repeat(configuration?.level ?? 1), " ");
@@ -23,7 +36,7 @@ export const headlineFrom = (
 
   headlineString.push(text);
 
-  if (configuration?.alignment !== undefined) {
+  if (areAttributesSet) {
     headlineString.push(`</h${configuration?.level ?? 1}>`);
   }
 
