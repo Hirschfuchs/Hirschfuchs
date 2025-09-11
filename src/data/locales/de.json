@@ -82,6 +82,11 @@
       "name": "Kick-Seiten",
       "description": "Webseiten eines lokalen Musikers. Einige technische Fehler aus meiner jugendlichen Entwicklung -> sukzessiver Neuaufbau."
     },
+    "githubStartingpage": {
+      "name": "Github Startseite",
+      "description": "Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)",
+      "newDescription": "Diese Seite steht jetzt mehrsprachig zur Verfügung. Die Sprache kann oben rechts ausgewählt werden.\n\nWeiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberhalb der Projektübersicht an."
+    },
     "keepassPlugins": {
       "name": "KeePass Plugin Sammlung",
       "description": "Private Sammlung nützlicher KeePass-Plugins, geteilt mit der Welt. Automatisierte Updates.",
@@ -114,7 +119,7 @@
       "description": "Übersicht der Stolpersteine in Ilmenau"
     },
     "gameframe": {
-      "description": "Ein Brettspielsimulator im Webbrowser. Hochschulproject, aktuell nicht gewartet oder weiterentwickelt. Weiterhin wurden über 300 zugehörige JIRA-Tickets und alle verknüpften Ressourcen gelöscht."
+      "description": "Ein Brettspielsimulator im Webbrowser. Hochschulproject, aktuell nicht gewartet oder weiterentwickelt. Weiterhin wurden über 300 zugehörige JIRA-Tickets und alle verknüpften Ressourcen gelöscht. Nehmen wir lieber BoardGameArena, die haben meine Vision umgesetzt :)"
     }
   }
 }

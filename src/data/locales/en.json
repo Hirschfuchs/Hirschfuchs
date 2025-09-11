@@ -82,6 +82,11 @@
       "name": "Kick-Pages",
       "description": "Webpages of a local musician. Many technical youthful mistakes -> will be redone."
     },
+    "githubStartingpage": {
+      "name": "Github Starting page",
+      "description": "This page (project for the dynamic generation of a GitHub portfolio)",
+      "newDescription": "This page is now available in multiple languages. You can select the language in the top right corner.\n\nIt has also been updated with additional information and now displays new projects above the project overview."
+    },
     "keepassPlugins": {
       "name": "KeePass Plugin Collection",
       "description": "Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.",
@@ -121,7 +126,7 @@
     },
     "gameframe": {
       "name": "GameFrame",
-      "description": "A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted."
+      "description": "A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted. Just use BoardGameArena instead, they implemented my vision :)"
     }
   }
 }

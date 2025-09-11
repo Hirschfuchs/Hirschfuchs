@@ -20,6 +20,18 @@ export const plannedProjects: TypesPlannedProject[] = [
     urlWeb: "https://kick-fox.de",
   },
   {
+    name: "projects.githubStartingpage.name",
+    description: "projects.githubStartingpage.description",
+    emoji: "🏠",
+    state: ProjectStates.ACTIVE,
+    urlRepo: "https://github.com/Hirschfuchs/Hirschfuchs",
+    urlWeb: "https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md",
+    newFlag: {
+      since: "2025-09-11",
+      newDescription: "projects.githubStartingpage.newDescription",
+    },
+  },
+  {
     name: "projects.keepassPlugins.name",
     description: "projects.keepassPlugins.description",
     emoji: "🔏",
