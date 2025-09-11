@@ -8,6 +8,28 @@ import {
 
 export const generateHeader = async () => {
   const lines: string[] = [];
+
+  const languageSelection: string[] = [];
+  [
+    { language: "en", file: "readme.md", emoji: "🇬🇧" },
+    { language: "de", file: "readme.de.md", emoji: "🇩🇪" },
+  ].forEach((availableLanguage) => {
+    if (availableLanguage.language !== i18next.language) {
+      languageSelection.push(
+        `<a href="${availableLanguage.file}">${availableLanguage.emoji}</a>`,
+      );
+    }
+  });
+  lines.push(
+    headlineFrom(i18next.t("headlines.viewInOtherLangs"), {
+      level: 1,
+      alignment: "right",
+      size: 14,
+    }),
+    paragraphFrom(languageSelection.join(" "), { alignment: "right" }),
+    "\n",
+  );
+
   lines.push(
     headlineFrom(i18next.t("headlines.title"), {
       level: 1,
