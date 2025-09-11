@@ -1,0 +1,132 @@
+{
+  "langName": "Bairisch",
+  "headlines": {
+    "viewInOtherLangs": "In andern Sprachen oischaun",
+    "title": "Servus \uD83D\uDC4B, i bin da Bono",
+    "subtitle": "Softwareentwickler aus Deutschland",
+    "level2": {
+      "info": "Infos",
+      "newSection_one": "Neis Projekt",
+      "newSection_other": "Neie Projekte",
+      "plannedProjects": "Geplante Projekte",
+      "topics": "Themen",
+      "connectWithMe": "Mit mir vernetzen",
+      "languagesAndTools": "Sprachen und Tools"
+    }
+  },
+  "keywords": {
+    "aboutMe": "Über mi",
+    "backend": "Backend",
+    "buildState": "Build-Status",
+    "db": "Datenbanken",
+    "details": "Details",
+    "development": "Entwicklung",
+    "developmentProcess": "Entwicklungsprozess",
+    "didWorkWithThem": "Schon dami gschafft",
+    "docs": "Doku",
+    "favourites": "Favoriten",
+    "frameworks": "Frameworks",
+    "frontend": "Frontend",
+    "furtherLanguages": "Weitere Sprachen",
+    "gaming": "Zockn",
+    "hobbies": "Hobbys",
+    "issuesGithub": "Issues",
+    "nonDevTools": "Nicht-Dev-Tools",
+    "notepads": "Notizblätter",
+    "noWebsiteYet": "Noch koane Website",
+    "os_one": "Betriebssystem",
+    "os_other": "Betriebssysteme",
+    "personalAssistance": "Persönliche Assistenz",
+    "print": "Drucken",
+    "projects": "Projekte",
+    "pullRequests": "Pull Requests",
+    "showOnline": "Online oischaun",
+    "state": "Status",
+    "tools": "Tools",
+    "viewRepo": "Repo oischaun",
+    "voluntaryWork": "Freiwillige Arbeit"
+  },
+  "states": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "planned": "Geplant",
+    "wip": "Am Schaffa",
+    "paused": "Pausiert"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "Atheist",
+      "craftsman": "Code-Handwerka vom Herz",
+      "engaged": "Verlobt",
+      "teetotaler": "Trocken"
+    },
+    "workingAt": "I schaff grad bei",
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Stellvertretender Vorstand Jusos Coburg"
+    },
+    "hobbies": {
+      "music": "Musik",
+      "boardgames": "Brettspieln",
+      "photography": "Fotografie"
+    }
+  },
+  "topics": {
+    "currentlyLearning": "I lern grad"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "Set-Variable für GitHub Actions",
+      "description": "GitHub Action zum Setzen von Repo-Variablen"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "Webseiten von am lokalen Musiker. Viele jugendliche techn. Fehler → werd neu gmacht."
+    },
+    "githubStartingpage": {
+      "name": "GitHub Startseitn",
+      "description": "Diese Seitn (Projekt für dynamisches GitHub Portfolio)",
+      "newDescription": "Jetzt mehsprachig verfügbar. Oben rechts kannst Sprache auswähln.\n\nAußerdem gibts neue Infos und neue Projekte oben über der Projektübersicht."
+    },
+    "keepassPlugins": {
+      "name": "KeePass Plugin Sammlung",
+      "description": "Persönliche Sammlung nützlicher KeePass-Plugins, öffentlich geteilt. Updates automatisch.",
+      "newDescription": "Beim Arbeiten mit meiner KeePass-Datenbank hab i gmerkt, dass KeePass selbst über mein Paketmanager updated, die Plugins aber manuell gpflegt werdn müssn.\n\nAlso hob i sie in an extra Ordner gstellt, damit i überall die gleichen Plugins nutzen kann.\n\nDann hob i mir gedacht: wenn i eh dabei bin, pack i’s gleich auf GitHub, dann kann i von überall drauf zugreifn und wer’s brauchen kann, kann’s sich holen.\n\nUnd da is des klassische Entwickler-Syndrom losganga: *„Des muaß doch mit Renovate wartbar sei – wenn i die Plugins maschinenlesbar mach und automatisch lad.“*\n\nSo is des Projekt entstanden. Fortschritt liegt bei ca. 80%, bin echt zfriedn :)"
+    },
+    "portfolio": {
+      "name": "Portfolio",
+      "description": "Eigenwerbung ^^"
+    },
+    "vimfo": {
+      "name": "Vimfo",
+      "description": "Interaktive Cheatsheet für VIM-Tasten"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "Dynamisches Builder Pattern in TypeScript umgesetzt"
+    },
+    "notfallapp": {
+      "name": "Notfall-App",
+      "description": "Web-App für schnellen Zugang zu Notfallnummern und wichtigen Infos"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket-Planer",
+      "description": "Berechnung von Zugverbindungen, die mit Deutschlandticket in bestimmter Zeit möglich san"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Gitmoji Changelog Generator",
+      "description": "Fork von Changelog Generator, aber mit Gitmoji statt Keywords"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia Poker",
+      "description": "Spiel, wo ma kürzesten Weg zwischen zwei Wikipedia-Artikeln findn muaß (ähnlich Six Degrees of Wikipedia)"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Stolpersteine Ilmenau Übersicht",
+      "description": "Übersicht der Stolpersteine in Ilmenau (Projekt zum Gedenken an Opfer des Holocaust)"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "Browser-Brettspiel-Simulator. Uni-Projekt, aktuell ned wartn oder weiterentwickelt.\nÜber 300 JIRA-Tickets und Ressourcen gelöscht. Besser BoardGameArena nutzn :)"
+    }
+  }
+}
