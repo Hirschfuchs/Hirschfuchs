@@ -27,21 +27,25 @@
 
 ### 🏠 Github Starting page ([View Repo](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Show Online](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
-*This page (project for the dynamic generation of a GitHub portfolio)*\
-**This page is now available in multiple languages. You can select the language in the top right corner.**
+> This page (project for the dynamic generation of a GitHub portfolio)
 
-**It has also been updated with additional information and now displays new projects above the project overview.**
+#### NEU
+This page is now available in multiple languages. You can select the language in the top right corner.
+
+It has also been updated with additional information and now displays new projects above the project overview.
 
 ### 🔏 KeePass Plugin Collection ([View Repo](https://github.com/Hirschfuchs/keepass-plugins))
 
-*Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.*\
-**When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.**
+> Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.
 
-**Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.**
+#### NEU
+When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.
 
-**And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”***
+Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.
 
-**That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)**
+And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”*
+
+That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)
 
 
 ## 🚧 Planned Projects

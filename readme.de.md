@@ -27,21 +27,25 @@
 
 ### 🏠 Github Startseite ([Repository anzeigen](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Online anzeigen](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
-*Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)*\
-**Diese Seite steht jetzt mehrsprachig zur Verfügung. Die Sprache kann oben rechts ausgewählt werden.**
+> Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)
 
-**Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberhalb der Projektübersicht an.**
+#### NEU
+Diese Seite steht jetzt mehrsprachig zur Verfügung. Die Sprache kann oben rechts ausgewählt werden.
+
+Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberhalb der Projektübersicht an.
 
 ### 🔏 KeePass Plugin Sammlung ([Repository anzeigen](https://github.com/Hirschfuchs/keepass-plugins))
 
-*Private Sammlung nützlicher KeePass-Plugins, geteilt mit der Welt. Automatisierte Updates.*\
-**Als mir bei der Arbeit mit meiner KeePass-Datenbank ins Auge stach, dass zwar KeePass über meinen Paketmanager geupdated wird, die Plugins aber per Hand gepflegt werden müssen, kam ich auf die Idee diese in einen separaten Ordner herauszuziehen, sodass ich über Geräte hinweg die gleichen Plugins nutzen kann.**
+> Private Sammlung nützlicher KeePass-Plugins, geteilt mit der Welt. Automatisierte Updates.
 
-**Naja, und dann kann ich das ganze ja gleich in Github packen, dann kann ich von überall drauf zugreifen und das ganze noch mit der Welt teilen, falls es irgendwen interessieren sollte.**
+#### NEU
+Als mir bei der Arbeit mit meiner KeePass-Datenbank ins Auge stach, dass zwar KeePass über meinen Paketmanager geupdated wird, die Plugins aber per Hand gepflegt werden müssen, kam ich auf die Idee diese in einen separaten Ordner herauszuziehen, sodass ich über Geräte hinweg die gleichen Plugins nutzen kann.
 
-**Und daraufhin passierte mir das gute alte Informatiker-Syndrom: das ganze müsste ja mit Renovate wartbar sein, wenn ich die Plugins maschinenlesbar erfasse und automatisch downloade.**
+Naja, und dann kann ich das ganze ja gleich in Github packen, dann kann ich von überall drauf zugreifen und das ganze noch mit der Welt teilen, falls es irgendwen interessieren sollte.
 
-**So kam es zu diesem Projekt. Der Fortschritt ist so bei 80%, ich bin mit dem Ergebnis soweit happy :)**
+Und daraufhin passierte mir das gute alte Informatiker-Syndrom: das ganze müsste ja mit Renovate wartbar sein, wenn ich die Plugins maschinenlesbar erfasse und automatisch downloade.
+
+So kam es zu diesem Projekt. Der Fortschritt ist so bei 80%, ich bin mit dem Ergebnis soweit happy :)
 
 
 ## 🚧 Geplante Projekte
