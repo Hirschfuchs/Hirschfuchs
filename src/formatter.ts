@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import { ProjectStates } from "./enums/projectStates";
 import { TopicTypes } from "./enums/TopicTypes";
 import { stateDescription } from "./types/state";
@@ -101,7 +102,7 @@ export const stateTextFrom = (state: ProjectStates) => {
 export const topicFrom = (topic: Topic) => {
   switch (topic.type) {
     case TopicTypes.LEARNING:
-      return `🌱 I’m currently learning **${topic.keyword}**`;
+      return `🌱 ${i18next.t("topics.currentlyLearning")} **${topic.keyword}**`;
   }
 };
 

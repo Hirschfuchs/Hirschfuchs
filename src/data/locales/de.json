@@ -33,6 +33,7 @@
     "issuesGithub": "Issues",
     "nonDevTools": "Nicht-Entwicklungstools",
     "notepads": "Notepads",
+    "noWebsiteYet": "Noch keine Website",
     "os_one": "Betriebssystem",
     "os_other": "Betriebssysteme",
     "personalAssistance": "Persönliche Assistenz",
@@ -59,6 +60,7 @@
       "engaged": "Verlobt",
       "teetotaler": "Antialkoholiker"
     },
+    "workingAt": "Ich arbeite derzeit bei",
     "voluntaryWork": {
       "viceChairpersonJusosCoburg": "Stellvertretender Vorstandsvorsitzender Jusos Coburg"
     },
@@ -67,5 +69,8 @@
       "boardgames": "Brettspiele",
       "photography": "Fotografie"
     }
+  },
+  "topics": {
+    "currentlyLearning": "Ich lerne aktuell"
   }
 }

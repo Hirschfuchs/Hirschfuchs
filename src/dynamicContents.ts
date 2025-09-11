@@ -29,15 +29,13 @@ export const generateInfos = () => {
   }
 
   if (info.work) {
+    const infoWork = [`🔭 ${i18next.t("infoSection.workingAt")} `];
     if (info.work.url !== undefined) {
-      infoItems.push(
-        `🔭 I’m currently working at [${i18next.t(info.work.name)}](${info.work.url})`,
-      );
+      infoWork.push(`[${i18next.t(info.work.name)}](${info.work.url})`);
     } else {
-      infoItems.push(
-        `🔭 I’m currently working at ${i18next.t(info.work.name)}`,
-      );
+      infoWork.push(i18next.t(info.work.name));
     }
+    infoItems.push(infoWork.join(""));
   }
 
   if (info.voluntaryWork && info.voluntaryWork.length > 0) {
@@ -172,7 +170,7 @@ const plannedProjectBuildStateCol = (plannedProject: TypesPlannedProject) => {
 
     return colText.join(" ");
   } else {
-    return `<img alt="State" src="https://img.shields.io/badge/website-${encodeURI("No website yet")}-orange" />`;
+    return `<img alt="State" src="https://img.shields.io/badge/website-${encodeURI(i18next.t("keywords.noWebsiteYet"))}-orange" />`;
   }
 };
 
