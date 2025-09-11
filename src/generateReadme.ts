@@ -52,7 +52,17 @@ const generateReadme = async (language?: string) => {
   );
 };
 
-const readmeVersions = [undefined, "de", "it", "fr", "es", "zh", "ja", "ko"];
+const readmeVersions = [
+  undefined,
+  "de",
+  "it",
+  "fr",
+  "es",
+  "zh",
+  "ja",
+  "ko",
+  "hi",
+];
 
 initI18N().then(async () => {
   for (let language of readmeVersions) {
