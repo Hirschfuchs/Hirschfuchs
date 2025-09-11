@@ -33,6 +33,7 @@
     "issuesGithub": "Issues",
     "nonDevTools": "Non-Dev Tools",
     "notepads": "Notepads",
+    "noWebsiteYet": "No website yet",
     "os_one": "Operating System",
     "os_other": "Operating Systems",
     "personalAssistance": "Personal Assistance",
@@ -59,6 +60,7 @@
       "engaged": "Engaged",
       "teetotaler": "Teetotaler"
     },
+    "workingAt": "I’m currently working at",
     "voluntaryWork": {
       "viceChairpersonJusosCoburg": "Vice Chairperson Jusos Coburg"
     },
@@ -67,5 +69,8 @@
       "boardgames": "Boardgames",
       "photography": "Photography"
     }
+  },
+  "topics": {
+    "currentlyLearning": "I’m currently learning"
   }
 }
