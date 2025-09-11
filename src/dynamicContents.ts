@@ -105,7 +105,9 @@ export const generateNewProjectsHighlight = () => {
   );
 
   newProjects.forEach((newProject) => {
-    let headlineElements = [`${newProject.emoji} ${newProject.name}`];
+    let headlineElements = [
+      `${newProject.emoji} ${i18next.t(newProject.name)}`,
+    ];
 
     if (newProject.urlRepo !== undefined) {
       headlineElements.push(
@@ -122,8 +124,8 @@ export const generateNewProjectsHighlight = () => {
     // Immer wahr, aber von Compiler nicht erkannt
     if (newProject.newFlag) {
       lines.push(
-        `*${newProject.description}*\\`,
-        `**${newProject.newFlag.newDescription.replaceAll("\n", "**\n**").replaceAll("****", "")}**`,
+        `*${i18next.t(newProject.description)}*\\`,
+        `**${i18next.t(newProject.newFlag.newDescription).replaceAll("\n", "**\n**").replaceAll("****", "")}**`,
         "",
       );
     }
@@ -139,9 +141,9 @@ const plannedProjectNameCol = (plannedProject: TypesPlannedProject) => {
   let projectName;
 
   if (plannedProject.newFlag) {
-    projectName = `🆕 ${plannedProject.name}`;
+    projectName = `🆕 ${i18next.t(plannedProject.name)}`;
   } else {
-    projectName = plannedProject.name;
+    projectName = i18next.t(plannedProject.name);
   }
 
   if (plannedProject.urlRepo !== undefined) {
@@ -219,7 +221,7 @@ export const generatePlannedProjects = () => {
     listFrom(
       plannedProjects.map(
         (plannedProject) =>
-          `${plannedProject.emoji} ${plannedProject.name}: ${plannedProject.description}`,
+          `${plannedProject.emoji} ${i18next.t(plannedProject.name)}: ${i18next.t(plannedProject.description)}`,
       ),
     ),
   );

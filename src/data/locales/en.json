@@ -72,5 +72,56 @@
   },
   "topics": {
     "currentlyLearning": "I’m currently learning"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "Set-Variable for Github Actions",
+      "description": "Github Action to set repository variables"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "Webpages of a local musician. Many technical youthful mistakes -> will be redone."
+    },
+    "keepassPlugins": {
+      "name": "KeePass Plugin Collection",
+      "description": "Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.",
+      "newDescription": "When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.\n\nWell, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.\n\nAnd that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”*\n\nThat’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)"
+    },
+    "portfolio": {
+      "name": "Portfolio",
+      "description": "Self-Marketing ^^"
+    },
+    "vimfo": {
+      "name": "Vim-Cheatsheet (Vimfo)",
+      "description": "An interactive cheatsheet for VIM-keys"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "Implementation of an dynamic builder pattern in Typescript"
+    },
+    "notfallapp": {
+      "name": "Notfallapp",
+      "description": "Webapplication for quick access to emergency numbers and relevant information"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket Planner",
+      "description": "Calculation of train rides available for the Deutschlandticket and possible to do in a specific time"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Gitmoji Changelog Generator",
+      "description": "Fork of a changelog generator, but working with Gitmoji instead of keywords"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia Poker",
+      "description": "A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Stolpersteine Ilmenau",
+      "description": "Overview of the Stolpersteine in Ilmenau (Project for remembering the victims of the Holocaust)"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted."
+    }
   }
 }
