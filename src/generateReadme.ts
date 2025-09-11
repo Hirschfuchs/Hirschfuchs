@@ -62,7 +62,7 @@ const readmeVersions = [
   "ja",
   "ko",
   "hi",
-  "de-ba",
+  "de-DE-BA",
 ];
 
 initI18N().then(async () => {
