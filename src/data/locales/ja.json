@@ -1,0 +1,132 @@
+{
+  "langName": "日本語",
+  "headlines": {
+    "viewInOtherLangs": "他の言語で表示",
+    "title": "こんにちは \uD83D\uDC4B、Bonoです",
+    "subtitle": "ドイツ出身のソフトウェア開発者",
+    "level2": {
+      "info": "情報",
+      "newSection_one": "新しいプロジェクト",
+      "newSection_other": "新しいプロジェクト",
+      "plannedProjects": "計画中のプロジェクト",
+      "topics": "トピック",
+      "connectWithMe": "連絡先",
+      "languagesAndTools": "言語とツール"
+    }
+  },
+  "keywords": {
+    "aboutMe": "自己紹介",
+    "backend": "バックエンド",
+    "buildState": "ビルドステータス",
+    "db": "データベース",
+    "details": "詳細",
+    "development": "開発",
+    "developmentProcess": "開発プロセス",
+    "didWorkWithThem": "使用経験あり",
+    "docs": "ドキュメント",
+    "favourites": "お気に入り",
+    "frameworks": "フレームワーク",
+    "frontend": "フロントエンド",
+    "furtherLanguages": "その他の言語",
+    "gaming": "ゲーム",
+    "hobbies": "趣味",
+    "issuesGithub": "Issues",
+    "nonDevTools": "非開発ツール",
+    "notepads": "ノートパッド",
+    "noWebsiteYet": "ウェブサイト未作成",
+    "os_one": "オペレーティングシステム",
+    "os_other": "オペレーティングシステム",
+    "personalAssistance": "パーソナルアシスタンス",
+    "print": "印刷",
+    "projects": "プロジェクト",
+    "pullRequests": "Pull Requests",
+    "showOnline": "オンラインで表示",
+    "state": "ステータス",
+    "tools": "ツール",
+    "viewRepo": "リポジトリを表示",
+    "voluntaryWork": "ボランティア活動"
+  },
+  "states": {
+    "active": "アクティブ",
+    "inactive": "非アクティブ",
+    "planned": "計画中",
+    "wip": "作業中",
+    "paused": "一時停止"
+  },
+  "infoSection": {
+    "aboutMe": {
+      "atheist": "無神論者",
+      "craftsman": "情熱的なコードクラフトマン",
+      "engaged": "婚約中",
+      "teetotaler": "禁酒者"
+    },
+    "workingAt": "現在勤務している会社：",
+    "voluntaryWork": {
+      "viceChairpersonJusosCoburg": "Coburg Jusos 副会長"
+    },
+    "hobbies": {
+      "music": "音楽",
+      "boardgames": "ボードゲーム",
+      "photography": "写真撮影"
+    }
+  },
+  "topics": {
+    "currentlyLearning": "現在学習中"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "GitHub Actions 環境変数設定",
+      "description": "リポジトリ変数を設定するための GitHub Action"
+    },
+    "kickPages": {
+      "name": "Kick-Pages",
+      "description": "地元ミュージシャンのウェブサイト。若い頃に作成したため技術的なミスあり → 順次リニューアル予定。"
+    },
+    "githubStartingpage": {
+      "name": "GitHub スタートページ",
+      "description": "このページ（GitHub ポートフォリオを動的生成するプロジェクト）",
+      "newDescription": "このページは多言語対応になりました。右上から言語を選択できます。\n\nさらに追加情報が表示され、新しいプロジェクトがプロジェクト一覧の上に表示されます。"
+    },
+    "keepassPlugins": {
+      "name": "KeePass プラグイン集",
+      "description": "個人的に便利だと思う KeePass プラグインのコレクション。自動更新機能付きで公開。",
+      "newDescription": "KeePass を使っていて気づいたのですが、KeePass 本体はパッケージマネージャーで更新できるのに、プラグインは手動で管理しなければなりませんでした。\n\nそこで、プラグインを別フォルダーに分けて、複数のデバイスで同じプラグインを使えるようにしました。\n\nその後、GitHub にアップロードすれば、どこからでもアクセスできるし、世界中の誰かの役に立つかもしれないと考えました。\n\nさらに、「これを Renovate で管理できるようにしたら最高では？」というプログラマー病が発症し、プラグインを機械可読な形式で管理・自動ダウンロードできるようにしました。\n\nこうしてこのプロジェクトが生まれました。現在進捗は約 80% で、結果には満足しています :)"
+    },
+    "portfolio": {
+      "name": "ポートフォリオ",
+      "description": "自己アピール ^^"
+    },
+    "vimfo": {
+      "name": "Vimfo",
+      "description": "VIM のキーバインドを確認できるインタラクティブチートシート"
+    },
+    "tsBuilder": {
+      "name": "TS-Builder",
+      "description": "TypeScript で動的ビルダーパターンを実装"
+    },
+    "notfallapp": {
+      "name": "緊急アプリ",
+      "description": "緊急連絡先や重要情報へ素早くアクセスするための Web アプリ"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket プランナー",
+      "description": "設定した最大旅行時間内で利用可能な列車接続を計算するツール"
+    },
+    "gitmojiChangelogGenerator": {
+      "name": "Gitmoji Changelog Generator",
+      "description": "キーワードではなく Gitmoji ベースで動作する Changelog ジェネレーターのフォーク"
+    },
+    "wikipediaPoker": {
+      "name": "Wikipedia ポーカー",
+      "description": "2つの Wikipedia 記事間の最短ルートを探すゲーム（Six Degrees of Wikipedia に類似）"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Ilmenau ストルパースタイン一覧",
+      "description": "Ilmenau 市内のストルパースタイン（ホロコースト犠牲者記念石）の一覧"
+    },
+    "gameframe": {
+      "name": "GameFrame",
+      "description": "ブラウザ上で動作するボードゲームシミュレーター。大学のプロジェクトでしたが、現在はメンテナンスや開発を停止しています。\nさらに、300件以上の関連 JIRA チケットとすべての関連リソースが削除されました。\n現在は BoardGameArena を使用することをおすすめします。彼らは私のビジョンを実現してくれました :)"
+    }
+  }
+}
