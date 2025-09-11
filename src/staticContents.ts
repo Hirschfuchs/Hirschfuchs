@@ -46,7 +46,7 @@ export const generateHeader = async () => {
   });
   lines.push(
     headlineFrom(i18next.t("headlines.viewInOtherLangs"), {
-      level: 3,
+      level: 4,
       alignment: "right",
     }),
     paragraphFrom(languageSelection.join(" "), { alignment: "right" }),

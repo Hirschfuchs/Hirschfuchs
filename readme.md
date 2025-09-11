@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Bono</h1>
 <h3 align="center">Software Developer from Germany</h3>
 
-<h3 align="right">View in other languages</h3>
+<h4 align="right">View in other languages</h4>
 <p align="right"><a href="readme.de.md">🇩🇪</a> <a href="readme.it.md">🇮🇹</a> <a href="readme.fr.md">🇫🇷</a> <a href="readme.es.md">🇪🇸</a> <a href="readme.zh.md">🇹🇼</a> <a href="readme.ja.md">🇯🇵</a> <a href="readme.ko.md">🇰🇷</a> <a href="readme.hi.md">🇮🇳</a> <a href="readme.de-ba.md">🏴󠁤󠁥󠁢󠁹󠁿</a></p>
 
 <p><img src="https://komarev.com/ghpvc/?username=hirschfuchs&label=Profile%20views&color=0e75b6&style=flat" alt="hirschfuchs" /></p>
