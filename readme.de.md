@@ -23,7 +23,14 @@
   - 📷 Fotografie
 
 
-## 🆕 Neues Projekt
+## 🆕 Neue Projekte
+
+### 🏠 Github Startseite ([Repository anzeigen](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Online anzeigen](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
+
+*Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)*\
+**Diese Seite steht jetzt mehrsprachig zur Verfügung. Die Sprache kann oben rechts ausgewählt werden.**
+
+**Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberhalb der Projektübersicht an.**
 
 ### 🔏 KeePass Plugin Sammlung ([Repository anzeigen](https://github.com/Hirschfuchs/keepass-plugins))
 
@@ -43,6 +50,7 @@
 |------|------|------|------|------|
 |[Set-Variable für Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Online anzeigen](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
 |[Kick-Seiten](https://github.com/Kick-Projects/kick-fox-alt) ([Online anzeigen](https://kick-fox.de))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
+|[🆕 Github Startseite](https://github.com/Hirschfuchs/Hirschfuchs) ([Online anzeigen](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[🆕 KeePass Plugin Sammlung](https://github.com/Hirschfuchs/keepass-plugins)|🚧 In Arbeit|<img alt="State" src="https://img.shields.io/badge/website-Noch%20keine%20Website-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
 |[Portfolio](https://github.com/Hirschfuchs/portfolio) ([Online anzeigen](https://test.bono-fox.de))|🚧 In Arbeit|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
 |[Vim-Cheatsheet (Vimfo)](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([Online anzeigen](https://vimfo.org))|⏸️ Pausiert|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|
@@ -57,6 +65,7 @@
 ### 📖 Details
 - #️⃣ Set-Variable für Github Actions: Github Action zum Setzen von Repository-Variablen
 - 🎸 Kick-Seiten: Webseiten eines lokalen Musikers. Einige technische Fehler aus meiner jugendlichen Entwicklung -> sukzessiver Neuaufbau.
+- 🏠 Github Startseite: Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)
 - 🔏 KeePass Plugin Sammlung: Private Sammlung nützlicher KeePass-Plugins, geteilt mit der Welt. Automatisierte Updates.
 - 📖 Portfolio: Eigenwerbung ^^
 - ⌨️ Vim-Cheatsheet (Vimfo): Ein interaktives Cheatsheet für VIM-Tastenbelegungen
@@ -66,7 +75,7 @@
 - 🤓 Gitmoji Changelog Generator: Fork eines Changelog-Generators, aber basierend auf Gitmoji statt Stichworten
 - 👣 Wikipedia Poker: Ein Spiel, in welchem der kürzeste Weg zwischen zwei Wikipedia-Artikeln gefunden werden muss (ähnlich six degrees of wikipedia)
 - 🕎 Übersichtsseite Stolpersteine Ilmenau: Übersicht der Stolpersteine in Ilmenau
-- 🎲 GameFrame: Ein Brettspielsimulator im Webbrowser. Hochschulproject, aktuell nicht gewartet oder weiterentwickelt. Weiterhin wurden über 300 zugehörige JIRA-Tickets und alle verknüpften Ressourcen gelöscht.
+- 🎲 GameFrame: Ein Brettspielsimulator im Webbrowser. Hochschulproject, aktuell nicht gewartet oder weiterentwickelt. Weiterhin wurden über 300 zugehörige JIRA-Tickets und alle verknüpften Ressourcen gelöscht. Nehmen wir lieber BoardGameArena, die haben meine Vision umgesetzt :)
 ## 📚 Themen
 
 - 🌱 Ich lerne aktuell **Rust**
