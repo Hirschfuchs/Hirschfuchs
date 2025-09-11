@@ -35,7 +35,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     name: "projects.keepassPlugins.name",
     description: "projects.keepassPlugins.description",
     emoji: "🔏",
-    state: ProjectStates.WIP,
+    state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/Hirschfuchs/keepass-plugins",
     newFlag: {
       since: "2025-09-10",
