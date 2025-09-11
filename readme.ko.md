@@ -105,6 +105,7 @@ KeePass 데이터베이스를 사용하면서 본체는 패키지 매니저를 �
 
 [![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white)](https://de.wikipedia.org/wiki/Benutzer:Fuchshirsch)
 
+[![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/hipstermaultier)[![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/hirschfuchs/)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/bonofox?country.x=DE&locale.x=de_DE)
 
 ---
