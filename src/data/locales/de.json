@@ -72,5 +72,49 @@
   },
   "topics": {
     "currentlyLearning": "Ich lerne aktuell"
+  },
+  "projects": {
+    "setVariable": {
+      "name": "Set-Variable für Github Actions",
+      "description": "Github Action zum Setzen von Repository-Variablen"
+    },
+    "kickPages": {
+      "name": "Kick-Seiten",
+      "description": "Webseiten eines lokalen Musikers. Einige technische Fehler aus meiner jugendlichen Entwicklung -> sukzessiver Neuaufbau."
+    },
+    "keepassPlugins": {
+      "name": "KeePass Plugin Sammlung",
+      "description": "Private Sammlung nützlicher KeePass-Plugins, geteilt mit der Welt. Automatisierte Updates.",
+      "newDescription": "Als mir bei der Arbeit mit meiner KeePass-Datenbank ins Auge stach, dass zwar KeePass über meinen Paketmanager geupdated wird, die Plugins aber per Hand gepflegt werden müssen, kam ich auf die Idee diese in einen separaten Ordner herauszuziehen, sodass ich über Geräte hinweg die gleichen Plugins nutzen kann.\n\nNaja, und dann kann ich das ganze ja gleich in Github packen, dann kann ich von überall drauf zugreifen und das ganze noch mit der Welt teilen, falls es irgendwen interessieren sollte.\n\nUnd daraufhin passierte mir das gute alte Informatiker-Syndrom: das ganze müsste ja mit Renovate wartbar sein, wenn ich die Plugins maschinenlesbar erfasse und automatisch downloade.\n\nSo kam es zu diesem Projekt. Der Fortschritt ist so bei 80%, ich bin mit dem Ergebnis soweit happy :)"
+    },
+    "portfolio": {
+      "description": "Eigenwerbung ^^"
+    },
+    "vimfo": {
+      "description": "Ein interaktives Cheatsheet für VIM-Tastenbelegungen"
+    },
+    "tsBuilder": {
+      "description": "Implementierung eines dynamischen Builder Patterns in Typescript"
+    },
+    "notfallapp": {
+      "description": "Web-Applikation für einen schnellen Zugang zu Notfallnummern und relevanten Informationen"
+    },
+    "deutschlandticketPlanner": {
+      "name": "Deutschlandticket-Planer",
+      "description": "Berechnung der verfügbaren Zugverbindungen mit dem Deutschlandticket innerhalb einer festgelegten Maximalreisedauer"
+    },
+    "gitmojiChangelogGenerator": {
+      "description": "Fork eines Changelog-Generators, aber basierend auf Gitmoji statt Stichworten"
+    },
+    "wikipediaPoker": {
+      "description": "Ein Spiel, in welchem der kürzeste Weg zwischen zwei Wikipedia-Artikeln gefunden werden muss (ähnlich six degrees of wikipedia)"
+    },
+    "stolpersteineIlmenau": {
+      "name": "Übersichtsseite Stolpersteine Ilmenau",
+      "description": "Übersicht der Stolpersteine in Ilmenau"
+    },
+    "gameframe": {
+      "description": "Ein Brettspielsimulator im Webbrowser. Hochschulproject, aktuell nicht gewartet oder weiterentwickelt. Weiterhin wurden über 300 zugehörige JIRA-Tickets und alle verknüpften Ressourcen gelöscht."
+    }
   }
 }

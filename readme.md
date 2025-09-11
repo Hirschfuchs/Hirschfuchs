@@ -65,7 +65,7 @@
 - 🚆 Deutschlandticket Planner: Calculation of train rides available for the Deutschlandticket and possible to do in a specific time
 - 🤓 Gitmoji Changelog Generator: Fork of a changelog generator, but working with Gitmoji instead of keywords
 - 👣 Wikipedia Poker: A game, in which the shortest path between two Wikipedia articles should be found (similar to six degrees of wikipedia)
-- 🕎 Stolpersteine Ilmenau: Overview of the Stopersteine in Ilmenau (Project for remembering the victims of the Holocaust)
+- 🕎 Stolpersteine Ilmenau: Overview of the Stolpersteine in Ilmenau (Project for remembering the victims of the Holocaust)
 - 🎲 GameFrame: A tabletop boardgame simulation in the webbrowser. University-Project, currently not maintained or further developed. Additionally over 300 corresponding JIRA-tickets and all linked resources got deleted.
 ## 📚 Topics
 
