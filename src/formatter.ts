@@ -70,6 +70,10 @@ export const paragraphFrom = (
 };
 
 export const listFrom = (listpoints: string[], depth?: number) => {
+  if (listpoints.length === 0) {
+    return "";
+  }
+
   let indent = "";
   if (depth !== undefined) {
     indent = "  ".repeat(depth - 1);
