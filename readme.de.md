@@ -45,8 +45,6 @@ Naja, und dann kann ich das ganze ja gleich in Github packen, dann kann ich von 
 
 Und daraufhin passierte mir das gute alte Informatiker-Syndrom: das ganze müsste ja mit Renovate wartbar sein, wenn ich die Plugins maschinenlesbar erfasse und automatisch downloade.
 
-So kam es zu diesem Projekt. Der Fortschritt ist so bei 80%, ich bin mit dem Ergebnis soweit happy :)
-
 
 ## 🚧 Geplante Projekte
 

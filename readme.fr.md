@@ -45,8 +45,6 @@ Puis je me suis dit : si je le fais déjà, autant mettre le tout sur GitHub pou
 
 Et c'est là qu'est apparu le classique syndrome du développeur : *« Tout cela devrait être maintenable avec Renovate — si je rends les plugins lisibles par la machine et que je les télécharge automatiquement. »*
 
-C'est ainsi que ce projet a vu le jour. Le progrès est maintenant d'environ 80 %, et je suis plutôt satisfait du résultat. :)
-
 
 ## 🚧 Projets planifiés
 
