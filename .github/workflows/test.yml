@@ -31,12 +31,15 @@ jobs:
       - name: Abhängigkeiten laden
         run: npm ci
 
+      - name: Tests ausführen
+        run: npm run test
+
       - name: Code formatieren
         if: >-
-              ${{
-              !contains(env.lastcommit, '🎨 Code formatiert') &&
-              !contains(env.lastcommit, '📝 README generiert')
-              }}
+          ${{
+          !contains(env.lastcommit, '🎨 Code formatiert') &&
+          !contains(env.lastcommit, '📝 README generiert')
+          }}
         run: npm run format-all
 
       - name: Add formatting-commit
