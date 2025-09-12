@@ -45,8 +45,6 @@ Well, and then I thought: if I’m doing that anyway, I might as well put the wh
 
 And that’s when the classic old programmer syndrome kicked in: *“This should really be maintainable with Renovate — if I make the plugins machine-readable and download them automatically.”*
 
-That’s how this project came to be. Progress is at about 80% now, and I’m pretty happy with how it’s turning out. :)
-
 
 ## 🚧 Planned Projects
 

@@ -47,8 +47,6 @@ Dann hob i mir gedacht: wenn i eh dabei bin, pack i’s gleich auf GitHub, dann 
 
 Und da is des klassische Entwickler-Syndrom losganga: *„Des muaß doch mit Renovate wartbar sei – wenn i die Plugins maschinenlesbar mach und automatisch lad.“*
 
-So is des Projekt entstanden. Fortschritt liegt bei ca. 80%, bin echt zfriedn :)
-
 
 ## 🚧 Geplante Projekte
 

@@ -45,8 +45,6 @@ Poi ho pensato: se lo faccio comunque, tanto vale caricare tutto su GitHub, cos�
 
 Ed è allora che è scattata la classica sindrome del programmatore: *"Questo dovrebbe essere gestibile con Renovate — se rendo i plugin leggibili dalle macchine e li scarico automaticamente."*
 
-Così è nato questo progetto. Il progresso è ora circa all'80% e sono piuttosto soddisfatto di come sta venendo. :)
-
 
 ## 🚧 Progetti pianificati
 
