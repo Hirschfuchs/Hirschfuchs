@@ -19,7 +19,7 @@
   "devDependencies": {
     "@lingual/i18n-check": "0.8.7",
     "@types/luxon": "3.7.1",
-    "@types/node": "22.18.1",
+    "@types/node": "22.18.3",
     "i18next": "25.5.2",
     "i18next-fs-backend": "2.6.0",
     "luxon": "3.7.2",
