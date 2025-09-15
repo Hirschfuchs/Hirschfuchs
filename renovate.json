@@ -1,15 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ],
+  "extends": ["config:recommended"],
   "description": "Renovate-Konfiguration des Hirschfuchs-Repos",
-  "labels": [
-    "👷 renovate"
-  ],
+  "labels": ["👷 renovate"],
   "prHourlyLimit": 20,
   "recreateWhen": "always",
-  "prTitle": "[RFR] {{commitMessage}}",
   "commitMessagePrefix": "⬆️ ",
   "commitMessageAction": "Upgrade",
   "commitMessageTopic": "Abhängigkeit {{depName}}",
@@ -23,19 +18,13 @@
   },
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "pin"
-      ],
+      "matchUpdateTypes": ["pin"],
       "commitMessagePrefix": "📌 ",
       "commitMessageAction": "Pinne",
-      "addLabels": [
-        "pin"
-      ]
+      "addLabels": ["pin"]
     },
     {
-      "matchUpdateTypes": [
-        "rollback"
-      ],
+      "matchUpdateTypes": ["rollback"],
       "commitMessagePrefix": "⬇️ ",
       "commitMessageAction": "Downgrade"
     }
