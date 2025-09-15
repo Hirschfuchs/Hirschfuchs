@@ -42,7 +42,7 @@ export const generateReadme = async (language?: string) => {
 
   fs.writeFile(`./${filename}`, readmeSections.join(""), (err) => {
     if (err !== null) {
-      console.error("Fehler beim Generieren der Readme-Datei!", err);
+      throw new Error("Fehler beim Generieren der Readme-Datei!", err);
     }
   });
 
