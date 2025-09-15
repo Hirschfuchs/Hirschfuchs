@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import i18next from "i18next";
+import { availableLanguages } from "./data/availableLanguages";
 import {
   generateInfos,
   generateNewProjectsHighlight,
@@ -54,15 +55,9 @@ const generateReadme = async (language?: string) => {
 
 const readmeVersions = [
   undefined,
-  "de",
-  "it",
-  "fr",
-  "es",
-  "zh",
-  "ja",
-  "ko",
-  "hi",
-  "de-DE-BA",
+  ...availableLanguages
+    .map((availableLanguage) => availableLanguage.language)
+    .filter((language) => language !== "en"),
 ];
 
 initI18N().then(async () => {
