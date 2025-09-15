@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Tests ausführen
-        run: npm run test
+        run: npm run test-with-coverage
 
       - name: Code formatieren
         if: >-
@@ -71,3 +71,8 @@ jobs:
           git commit -m "📝 README generiert"
           git push origin ${{ github.event.pull_request.head.ref }}
           }
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5.5.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
