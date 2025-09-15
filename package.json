@@ -10,7 +10,7 @@
   "author": "Bono Fox <mail@bono-fox.de>",
   "license": "ISC",
   "scripts": {
-    "generate-readme": "ts-node src/generateReadme.ts",
+    "generate-readme": "ts-node src/runners/generateReadme.runner.ts",
     "format-all": "prettier -w src/.",
     "clear-new-flags": "ts-node src/clearNewProjectFlags.ts",
     "check-translations": "i18n-check -s en --locales src/data/locales -f i18next",
