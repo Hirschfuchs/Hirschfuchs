@@ -38,7 +38,8 @@ jobs:
         if: >-
           ${{
           !contains(env.lastcommit, '🎨 Code formatiert') &&
-          !contains(env.lastcommit, '📝 README generiert')
+          !contains(env.lastcommit, '📝 README generiert') &&
+          github.event_name != 'workflow_dispatch'
           }}
         run: npm run format-all
 
@@ -46,7 +47,8 @@ jobs:
         if: >-
           ${{
           !contains(env.lastcommit, '🎨 Code formatiert') &&
-          !contains(env.lastcommit, '📝 README generiert')
+          !contains(env.lastcommit, '📝 README generiert') &&
+          github.event_name != 'workflow_dispatch'
           }}
         run: |
           git config --global user.name 'OpenFoxes Maintenance Bot'
@@ -59,11 +61,19 @@ jobs:
           }
 
       - name: README generieren
-        if: "!contains(env.lastcommit, '📝 README generiert')"
+        if: >-
+          ${{
+          !contains(env.lastcommit, '📝 README generiert') &&
+          github.event_name != 'workflow_dispatch'
+          }}
         run: npm run generate-readme
 
       - name: Add README-commit
-        if: "!contains(env.lastcommit, '📝 README generiert')"
+        if: >-
+          ${{
+          !contains(env.lastcommit, '📝 README generiert') &&
+          github.event_name != 'workflow_dispatch'
+          }}
         run: |
           git checkout ${{ github.event.pull_request.head.ref }}
           git add .
