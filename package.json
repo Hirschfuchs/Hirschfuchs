@@ -14,12 +14,14 @@
     "format-all": "prettier -w src/.",
     "clear-new-flags": "ts-node src/clearNewProjectFlags.ts",
     "check-translations": "i18n-check -s en --locales src/data/locales -f i18next",
-    "test": "vitest"
+    "test": "vitest",
+    "test-with-coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@lingual/i18n-check": "0.8.7",
     "@types/luxon": "3.7.1",
     "@types/node": "22.18.3",
+    "@vitest/coverage-v8": "3.2.4",
     "i18next": "25.5.2",
     "i18next-fs-backend": "2.6.0",
     "luxon": "3.7.2",
