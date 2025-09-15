@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import i18next from "i18next";
-import { availableLanguages } from "./data/availableLanguages";
 import {
   generateInfos,
   generateNewProjectsHighlight,
@@ -8,7 +7,6 @@ import {
   generateTopics,
 } from "./dynamicContents";
 import { horizontalLine, linebreak } from "./formatter";
-import { initI18N } from "./initI18n";
 import {
   generateConnectWithMe,
   generateHeader,
@@ -16,7 +14,7 @@ import {
   generateStats,
 } from "./staticContents";
 
-const generateReadme = async (language?: string) => {
+export const generateReadme = async (language?: string) => {
   await i18next.changeLanguage(language ?? "en");
   console.log(`Erzeuge Readme in ${i18next.t("langName")}...`);
 
@@ -52,16 +50,3 @@ const generateReadme = async (language?: string) => {
     `Readme (${i18next.language}) erfolgreich in ${filename} generiert.`,
   );
 };
-
-const readmeVersions = [
-  undefined,
-  ...availableLanguages
-    .map((availableLanguage) => availableLanguage.language)
-    .filter((language) => language !== "en"),
-];
-
-initI18N().then(async () => {
-  for (let language of readmeVersions) {
-    await generateReadme(language);
-  }
-});
