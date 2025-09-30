@@ -14,6 +14,7 @@
   - Atheist ⚛️
   - Antialkoholiker 🍻
 
+- 🔭 Ich arbeite derzeit bei [Fourenergy als IT-Consultant](https://www.fourenergy.de/)
 - 🧑‍💼 **Ehrenamtliche Arbeiten**:
   - 🧭 [Stellvertretender Vorstandsvorsitzender Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 
