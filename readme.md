@@ -14,6 +14,7 @@
   - Atheist ⚛️
   - Teetotaler 🍻
 
+- 🔭 I’m currently working at [Fourenergy as IT-Consultant](https://www.fourenergy.de/)
 - 🧑‍💼 **Voluntary Work**:
   - 🧭 [Vice Chairperson Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 

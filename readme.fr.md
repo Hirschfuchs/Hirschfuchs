@@ -14,6 +14,7 @@
   - Athée ⚛️
   - Abstinent 🍻
 
+- 🔭 Je travaille actuellement chez [Fourenergy en tant que consultant informatique](https://www.fourenergy.de/)
 - 🧑‍💼 **Travail bénévole**:
   - 🧭 [Vice-président des Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 
