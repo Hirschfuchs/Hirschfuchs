@@ -14,6 +14,7 @@
   - Atheist ⚛️
   - Trocken 🍻
 
+- 🔭 I schaff grad bei [Fourenergy ois IT-Consultant](https://www.fourenergy.de/)
 - 🧑‍💼 **Freiwillige Arbeit**:
   - 🧭 [Stellvertretender Vorstand Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 

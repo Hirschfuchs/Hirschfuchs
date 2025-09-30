@@ -14,6 +14,7 @@
   - 無神論者 ⚛️
   - 禁酒者 🍻
 
+- 🔭 現在勤務している会社： [Fourenergy (IT-Consultant)](https://www.fourenergy.de/)
 - 🧑‍💼 **ボランティア活動**:
   - 🧭 [Coburg Jusos 副会長](https://www.instagram.com/jusos_coburg/)
 
