@@ -12,7 +12,7 @@
   "scripts": {
     "generate-readme": "ts-node src/runners/generateReadme.runner.ts",
     "format-all": "prettier -w src/.",
-    "clear-new-flags": "ts-node src/clearNewProjectFlags.ts",
+    "clear-new-flags": "ts-node src/runners/clearNewProjectFlags.runner.ts",
     "check-translations": "i18n-check -s en --locales src/data/locales -f i18next",
     "test": "vitest",
     "test-with-coverage": "vitest run --coverage"
