@@ -31,7 +31,7 @@ export const clearNewProjectFlags = () => {
       typedChild.getProperty("newFlag");
 
       const newFlag = typedChild.getProperty("newFlag");
-      if (newFlag !== undefined && newFlag.getText() !== "false") {
+      if (newFlag !== undefined && newFlag.getText() !== "newFlag: false") {
         const newFlagTyped = newFlag
           .asKindOrThrow(SyntaxKind.PropertyAssignment)
           .getInitializer()
