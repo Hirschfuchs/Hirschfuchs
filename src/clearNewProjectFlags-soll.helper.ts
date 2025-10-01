@@ -26,4 +26,14 @@ export const plannedProjects: TypesPlannedProject[] = [
     emoji: ":)",
     state: ProjectStates.WIP,
   },
+  {
+    name: "Neues Flag",
+    description: "Dieses Projekt soll unverändert bleiben",
+    emoji: ":)",
+    state: ProjectStates.ACTIVE,
+    newFlag: {
+      since: "2025-10-01",
+      newDescription: "Dieses Flag soll nicht entfernt werden",
+    },
+  },
 ];
