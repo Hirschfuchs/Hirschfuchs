@@ -29,7 +29,7 @@
 
 > This page (project for the dynamic generation of a GitHub portfolio)
 
-#### NEU
+#### NEW!
 This page is now available in multiple languages. You can select the language in the top right corner.
 
 It has also been updated with additional information and now displays new projects above the project overview.
@@ -38,7 +38,7 @@ It has also been updated with additional information and now displays new projec
 
 > Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.
 
-#### NEU
+#### NEW!
 When I noticed while working with my KeePass database that KeePass itself gets updated through my package manager, but the plugins have to be maintained manually, I came up with the idea of moving them into a separate folder. That way, I could use the same plugins across all my devices.
 
 Well, and then I thought: if I’m doing that anyway, I might as well put the whole thing on GitHub so I can access it from anywhere — and share it with the world in case anyone else might find it useful.
