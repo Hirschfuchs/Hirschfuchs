@@ -19,7 +19,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     emoji: ":)",
     state: ProjectStates.ACTIVE,
     newFlag: {
-      since: "2000-10-01",
+      since: "2025-09-01",
       newDescription: "Dieses Flag soll entfernt werden",
     },
   },
@@ -28,5 +28,15 @@ export const plannedProjects: TypesPlannedProject[] = [
     description: "Dieses Projekt soll unverändert bleiben",
     emoji: ":)",
     state: ProjectStates.WIP,
+  },
+  {
+    name: "Neues Flag",
+    description: "Dieses Projekt soll unverändert bleiben",
+    emoji: ":)",
+    state: ProjectStates.ACTIVE,
+    newFlag: {
+      since: "2025-10-01",
+      newDescription: "Dieses Flag soll nicht entfernt werden",
+    },
   },
 ];
