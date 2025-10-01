@@ -7,6 +7,10 @@ export const info: Info = {
     { name: "infoSection.aboutMe.atheist", emoji: "⚛️" },
     { name: "infoSection.aboutMe.teetotaler", emoji: "🍻" },
   ],
+  work: {
+    name: "infoSection.workFourenergy",
+    url: "https://www.fourenergy.de/",
+  },
   voluntaryWork: [
     {
       name: "infoSection.voluntaryWork.viceChairpersonJusosCoburg",

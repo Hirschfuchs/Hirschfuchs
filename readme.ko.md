@@ -14,6 +14,7 @@
   - 무신론자 ⚛️
   - 금주자 🍻
 
+- 🔭 현재 근무지: [Fourenergy (IT-Consultant)](https://www.fourenergy.de/)
 - 🧑‍💼 **자원 봉사 활동**:
   - 🧭 [Jusos Coburg 부회장](https://www.instagram.com/jusos_coburg/)
 

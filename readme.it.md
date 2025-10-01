@@ -14,6 +14,7 @@
   - Ateo ⚛️
   - Astemio 🍻
 
+- 🔭 Attualmente lavoro presso [Fourenergy como consulente IT](https://www.fourenergy.de/)
 - 🧑‍💼 **Lavoro volontario**:
   - 🧭 [Vicepresidente Jusos Coburg](https://www.instagram.com/jusos_coburg/)
 
