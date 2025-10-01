@@ -29,7 +29,7 @@
 
 > Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)
 
-#### NEU
+#### NEU!
 Diese Seite steht jetzt mehrsprachig zur Verfügung. Die Sprache kann oben rechts ausgewählt werden.
 
 Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberhalb der Projektübersicht an.
@@ -38,7 +38,7 @@ Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberh
 
 > Private Sammlung nützlicher KeePass-Plugins, geteilt mit der Welt. Automatisierte Updates.
 
-#### NEU
+#### NEU!
 Als mir bei der Arbeit mit meiner KeePass-Datenbank ins Auge stach, dass zwar KeePass über meinen Paketmanager geupdated wird, die Plugins aber per Hand gepflegt werden müssen, kam ich auf die Idee diese in einen separaten Ordner herauszuziehen, sodass ich über Geräte hinweg die gleichen Plugins nutzen kann.
 
 Naja, und dann kann ich das ganze ja gleich in Github packen, dann kann ich von überall drauf zugreifen und das ganze noch mit der Welt teilen, falls es irgendwen interessieren sollte.

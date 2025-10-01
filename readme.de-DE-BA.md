@@ -29,7 +29,7 @@
 
 > Diese Seitn (Projekt für dynamisches GitHub Portfolio)
 
-#### NEU
+#### NEIS!
 Jetzt mehsprachig verfügbar. Oben rechts kannst Sprache auswähln.
 
 Außerdem gibts neue Infos und neue Projekte oben über der Projektübersicht.
@@ -38,7 +38,7 @@ Außerdem gibts neue Infos und neue Projekte oben über der Projektübersicht.
 
 > Persönliche Sammlung nützlicher KeePass-Plugins, öffentlich geteilt. Updates automatisch.
 
-#### NEU
+#### NEIS!
 Beim Arbeiten mit meiner KeePass-Datenbank hab i gmerkt, dass KeePass selbst über mein Paketmanager updated, die Plugins aber manuell gpflegt werdn müssn.
 
 Also hob i sie in an extra Ordner gstellt, damit i überall die gleichen Plugins nutzen kann.

@@ -125,7 +125,7 @@ export const generateNewProjectsHighlight = () => {
     if (newProject.newFlag) {
       lines.push(
         `> ${i18next.t(newProject.description)}\n`,
-        `${headlineFrom("NEU", { level: 4 })}${i18next.t(newProject.newFlag.newDescription).replaceAll("****", "")}`,
+        `${headlineFrom(i18next.t("headlines.level2.new"), { level: 4 })}${i18next.t(newProject.newFlag.newDescription).replaceAll("****", "")}`,
         "",
       );
     }
