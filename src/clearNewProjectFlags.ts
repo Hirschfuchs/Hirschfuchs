@@ -62,5 +62,3 @@ export const clearNewProjectFlags = () => {
 
   file.saveSync();
 };
-
-clearNewProjectFlags();
