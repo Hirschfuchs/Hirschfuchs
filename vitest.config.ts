@@ -9,6 +9,7 @@ export default defineConfig({
         "src/data/**",
         "src/enums/**",
         "src/types/**",
+        "**/*.helper.ts",
       ],
     },
   },
