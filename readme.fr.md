@@ -23,7 +23,7 @@
   - 📷 Photographie
 
 
-## 🆕 Nouveaux projets
+## 🆕 Nouveau projet
 
 ### 🏠 Page d'accueil GitHub ([Voir le dépôt](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Afficher en ligne](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
@@ -34,17 +34,6 @@ Cette page est désormais disponible en plusieurs langues. Vous pouvez sélectio
 
 Elle a également été mise à jour avec des informations supplémentaires et affiche maintenant les nouveaux projets au-dessus de la vue d'ensemble des projets.
 
-### 🔏 Collection de plugins KeePass ([Voir le dépôt](https://github.com/Hirschfuchs/keepass-plugins))
-
-> Collection personnelle de plugins KeePass utiles, partagée avec le public. Mises à jour automatiques.
-
-#### NOUVEAU!
-En travaillant avec ma base de données KeePass, j'ai remarqué que KeePass lui-même était mis à jour via mon gestionnaire de paquets, mais que les plugins devaient être gérés manuellement. J'ai donc eu l'idée de les placer dans un dossier séparé, afin de pouvoir utiliser les mêmes plugins sur tous mes appareils.
-
-Puis je me suis dit : si je le fais déjà, autant mettre le tout sur GitHub pour y accéder de partout et le partager avec le monde, au cas où quelqu'un d'autre en aurait l'utilité.
-
-Et c'est là qu'est apparu le classique syndrome du développeur : *« Tout cela devrait être maintenable avec Renovate — si je rends les plugins lisibles par la machine et que je les télécharge automatiquement. »*
-
 
 ## 🚧 Projets planifiés
 
@@ -53,7 +42,7 @@ Et c'est là qu'est apparu le classique syndrome du développeur : *« Tout cela
 |[Set-Variable pour Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Afficher en ligne](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([Afficher en ligne](https://kick-fox.de))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[🆕 Page d'accueil GitHub](https://github.com/Hirschfuchs/Hirschfuchs) ([Afficher en ligne](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
-|[🆕 Collection de plugins KeePass](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
+|[Collection de plugins KeePass](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
 |[Portfolio](https://github.com/Hirschfuchs/portfolio) ([Afficher en ligne](https://test.bono-fox.de))|🚧 En cours|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
 |[Vim-Cheatsheet (Vimfo)](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([Afficher en ligne](https://vimfo.org))|⏸️ En pause|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|
 |[TS-Builder](https://github.com/OpenFoxes/ts-builder) ([Afficher en ligne](https://www.npmjs.com/package/@openfoxes/ts-builder))|⏸️ En pause|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://www.npmjs.com/package/@openfoxes/ts-builder"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/www.npmjs.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/ts-builder?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/ts-builder?style=flat-square"/>|
