@@ -80,6 +80,10 @@
       "name": "GitHub Actions 環境変数設定",
       "description": "リポジトリ変数を設定するための GitHub Action"
     },
+    "tiny4linux": {
+      "description": "Linux システム上で OBSBOT Tiny シリーズを制御するための GUI コントローラー",
+      "newDescription": "新しいウェブカメラを選ぶとき、OBSBOT の Tiny 2 Lite を選びました。この PTZ カメラにはいくつかの魅力的な機能がありますが、残念ながら Linux では操作できません。幸いにも、Linux 上でトラッキング制御を可能にするいくつかのプロジェクトがあります。しかし、スリープ／ウェイクやプリセット呼び出しなどの機能も必要だったため、その中の一つをフォークして開発を続けています。"
+    },
     "kickPages": {
       "name": "Kick-Pages",
       "description": "地元ミュージシャンのウェブサイト。若い頃に作成したため技術的なミスあり → 順次リニューアル予定。"

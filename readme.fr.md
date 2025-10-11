@@ -23,7 +23,14 @@
   - 📷 Photographie
 
 
-## 🆕 Nouveau projet
+## 🆕 Nouveaux projets
+
+### 🎦 Tiny4Linux ([Voir le dépôt](https://github.com/OpenFoxes/Tiny4Linux))
+
+> Contrôleur GUI pour gérer la série OBSBOT Tiny sur les systèmes Linux
+
+#### NOUVEAU!
+En choisissant une nouvelle webcam, j’ai opté pour la Tiny 2 Lite d’OBSBOT. Cette caméra PTZ offre des fonctionnalités impressionnantes, mais malheureusement, je ne pouvais pas la contrôler sous Linux. Heureusement, certains projets permettent de gérer le suivi sur Linux. Comme j’avais aussi besoin de fonctions comme Sleep & Wake ou le rappel des préréglages, j’ai forké l’un de ces projets et j’ai continué son développement.
 
 ### 🏠 Page d'accueil GitHub ([Voir le dépôt](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Afficher en ligne](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
@@ -40,6 +47,7 @@ Elle a également été mise à jour avec des informations supplémentaires et a
 |📦 Projets|🎉 État|✔️ État de build|🛎 Issues|📬 Pull requests|
 |------|------|------|------|------|
 |[Set-Variable pour Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Afficher en ligne](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
+|[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([Afficher en ligne](https://kick-fox.de))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[🆕 Page d'accueil GitHub](https://github.com/Hirschfuchs/Hirschfuchs) ([Afficher en ligne](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[Collection de plugins KeePass](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
@@ -55,6 +63,7 @@ Elle a également été mise à jour avec des informations supplémentaires et a
 
 ### 📖 Détails
 - #️⃣ Set-Variable pour Github Actions: Github Action pour définir des variables de dépôt
+- 🎦 Tiny4Linux: Contrôleur GUI pour gérer la série OBSBOT Tiny sur les systèmes Linux
 - 🎸 Kick-Pages: Sites web d'un musicien local. Quelques erreurs techniques de jeunesse -> reconstruction progressive.
 - 🏠 Page d'accueil GitHub: Cette page (projet pour la génération dynamique d'un portfolio GitHub)
 - 🔏 Collection de plugins KeePass: Collection personnelle de plugins KeePass utiles, partagée avec le public. Mises à jour automatiques.

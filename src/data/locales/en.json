@@ -80,6 +80,11 @@
       "name": "Set-Variable for Github Actions",
       "description": "Github Action to set repository variables"
     },
+    "tiny4linux": {
+      "name": "Tiny4Linux",
+      "description": "GUI controller for managing the OBSBOT Tiny series on Linux systems",
+      "newDescription": "When choosing a new webcam, I went with the Tiny 2 Lite from OBSBOT. This PTZ camera has some fancy features — but unfortunately, I couldn’t control it on Linux. Luckily, there are a few projects that bring tracking control to Linux. However, since I also needed other functions like Sleep & Wake or preset retrieval, I forked one of those projects and continued developing it."
+    },
     "kickPages": {
       "name": "Kick-Pages",
       "description": "Webpages of a local musician. Many technical youthful mistakes -> will be redone."

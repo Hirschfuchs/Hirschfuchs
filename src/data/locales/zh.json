@@ -80,6 +80,10 @@
       "name": "Github Actions 變數設定",
       "description": "用於設定倉庫變數的 Github Action"
     },
+    "tiny4linux": {
+      "description": "在 Linux 系統上控制 OBSBOT Tiny 系列的 GUI 控制器",
+      "newDescription": "在挑選新網路攝影機時，我選擇了 OBSBOT 的 Tiny 2 Lite。這台 PTZ 攝影機功能非常炫，但可惜在 Linux 上無法控制。幸好有一些專案能在 Linux 上實現追蹤控制。不過，由於我還需要像 Sleep & Wake 或預設值讀取等功能，我 fork 了其中一個專案並繼續開發。"
+    },
     "kickPages": {
       "name": "Kick-Pages",
       "description": "一位本地音樂人的網站。包含一些早期開發中的技術錯誤 -> 正在逐步重建。"
