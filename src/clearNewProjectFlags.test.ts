@@ -55,6 +55,50 @@ const createCurrentFile = () => {
       "];\n",
   );
 };
+const createTargetFile = () => {
+  writeFileSync(
+    TARGET_FILE,
+    'import { ProjectStates } from "./enums/projectStates";\n' +
+      'import { TypesPlannedProject } from "./types/typesPlannedProject";\n' +
+      "\n" +
+      "/**\n" +
+      " * Diese Datei wird ausschließlich im Test genutzt, um die erfolgreiche\n" +
+      " * Funktionsweise von ts-morph sicherzustellen.\n" +
+      " */\n" +
+      "export const plannedProjects: TypesPlannedProject[] = [\n" +
+      "  {\n" +
+      '    name: "Flag auf False",\n' +
+      '    description: "Dieses Projekt soll unverändert bleiben",\n' +
+      '    emoji: ":)",\n' +
+      "    state: ProjectStates.ACTIVE,\n" +
+      "    newFlag: false,\n" +
+      "  },\n" +
+      "  {\n" +
+      '    name: "Altes Flag",\n' +
+      '    description: "Dieses Projekt soll das Flag entfernen",\n' +
+      '    emoji: ":)",\n' +
+      "    state: ProjectStates.ACTIVE,\n" +
+      "    newFlag: false,\n" +
+      "  },\n" +
+      "  {\n" +
+      '    name: "Kein Flag",\n' +
+      '    description: "Dieses Projekt soll unverändert bleiben",\n' +
+      '    emoji: ":)",\n' +
+      "    state: ProjectStates.WIP,\n" +
+      "  },\n" +
+      "  {\n" +
+      '    name: "Neues Flag",\n' +
+      '    description: "Dieses Projekt soll unverändert bleiben",\n' +
+      '    emoji: ":)",\n' +
+      "    state: ProjectStates.ACTIVE,\n" +
+      "    newFlag: {\n" +
+      `      since: "${DateTime.now().toISODate()}",\n` +
+      '      newDescription: "Dieses Flag soll nicht entfernt werden",\n' +
+      "    },\n" +
+      "  },\n" +
+      "];\n",
+  );
+};
 
 describe('"Neues Projekt" Flags entfernen', () => {
   vi.mock("ts-morph", async (original) => {
@@ -75,6 +119,7 @@ describe('"Neues Projekt" Flags entfernen', () => {
 
   beforeEach(() => {
     createCurrentFile();
+    createTargetFile();
   });
 
   test("[VORBEDINGUNG] Ausgangszustand unterscheidet sich von SOLL-Zustand", () => {
