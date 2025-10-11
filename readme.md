@@ -23,7 +23,14 @@
   - 📷 Photography
 
 
-## 🆕 New Project
+## 🆕 New Projects
+
+### 🎦 Tiny4Linux ([View Repo](https://github.com/OpenFoxes/Tiny4Linux))
+
+> GUI controller for managing the OBSBOT Tiny series on Linux systems
+
+#### NEW!
+When choosing a new webcam, I went with the Tiny 2 Lite from OBSBOT. This PTZ camera has some fancy features — but unfortunately, I couldn’t control it on Linux. Luckily, there are a few projects that bring tracking control to Linux. However, since I also needed other functions like Sleep & Wake or preset retrieval, I forked one of those projects and continued developing it.
 
 ### 🏠 Github Starting page ([View Repo](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Show Online](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
@@ -40,6 +47,7 @@ It has also been updated with additional information and now displays new projec
 |📦 Projects|🎉 State|✔️ Build State|🛎 Issues|📬 Pull requests|
 |------|------|------|------|------|
 |[Set-Variable for Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Show Online](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
+|[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 Active|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([Show Online](https://kick-fox.de))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[🆕 Github Starting page](https://github.com/Hirschfuchs/Hirschfuchs) ([Show Online](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass Plugin Collection](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Active|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
@@ -55,6 +63,7 @@ It has also been updated with additional information and now displays new projec
 
 ### 📖 Details
 - #️⃣ Set-Variable for Github Actions: Github Action to set repository variables
+- 🎦 Tiny4Linux: GUI controller for managing the OBSBOT Tiny series on Linux systems
 - 🎸 Kick-Pages: Webpages of a local musician. Many technical youthful mistakes -> will be redone.
 - 🏠 Github Starting page: This page (project for the dynamic generation of a GitHub portfolio)
 - 🔏 KeePass Plugin Collection: Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.

@@ -25,6 +25,13 @@
 
 ## 🆕 新しいプロジェクト
 
+### 🎦 Tiny4Linux ([リポジトリを表示](https://github.com/OpenFoxes/Tiny4Linux))
+
+> Linux システム上で OBSBOT Tiny シリーズを制御するための GUI コントローラー
+
+#### 新着！
+新しいウェブカメラを選ぶとき、OBSBOT の Tiny 2 Lite を選びました。この PTZ カメラにはいくつかの魅力的な機能がありますが、残念ながら Linux では操作できません。幸いにも、Linux 上でトラッキング制御を可能にするいくつかのプロジェクトがあります。しかし、スリープ／ウェイクやプリセット呼び出しなどの機能も必要だったため、その中の一つをフォークして開発を続けています。
+
 ### 🏠 GitHub スタートページ ([リポジトリを表示](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([オンラインで表示](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
 > このページ（GitHub ポートフォリオを動的生成するプロジェクト）
@@ -40,6 +47,7 @@
 |📦 プロジェクト|🎉 ステータス|✔️ ビルドステータス|🛎 Issues|📬 Pull Requests|
 |------|------|------|------|------|
 |[GitHub Actions 環境変数設定](https://github.com/OpenFoxes/set-github-variable) ([オンラインで表示](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 アクティブ|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
+|[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 アクティブ|<img alt="State" src="https://img.shields.io/badge/website-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E6%9C%AA%E4%BD%9C%E6%88%90-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([オンラインで表示](https://kick-fox.de))|🏃 アクティブ|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[🆕 GitHub スタートページ](https://github.com/Hirschfuchs/Hirschfuchs) ([オンラインで表示](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 アクティブ|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass プラグイン集](https://github.com/Hirschfuchs/keepass-plugins)|🏃 アクティブ|<img alt="State" src="https://img.shields.io/badge/website-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E6%9C%AA%E4%BD%9C%E6%88%90-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
@@ -55,6 +63,7 @@
 
 ### 📖 詳細
 - #️⃣ GitHub Actions 環境変数設定: リポジトリ変数を設定するための GitHub Action
+- 🎦 Tiny4Linux: Linux システム上で OBSBOT Tiny シリーズを制御するための GUI コントローラー
 - 🎸 Kick-Pages: 地元ミュージシャンのウェブサイト。若い頃に作成したため技術的なミスあり → 順次リニューアル予定。
 - 🏠 GitHub スタートページ: このページ（GitHub ポートフォリオを動的生成するプロジェクト）
 - 🔏 KeePass プラグイン集: 個人的に便利だと思う KeePass プラグインのコレクション。自動更新機能付きで公開。

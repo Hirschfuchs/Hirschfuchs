@@ -80,6 +80,10 @@
       "name": "GitHub Actions Set-Variable",
       "description": "리포지토리 변수를 설정하기 위한 GitHub Action"
     },
+    "tiny4linux": {
+      "description": "Linux 시스템에서 OBSBOT Tiny 시리즈를 제어하기 위한 GUI 컨트롤러",
+      "newDescription": "새 웹캠을 고를 때, 나는 OBSBOT의 Tiny 2 Lite를 선택했습니다. 이 PTZ 카메라는 멋진 기능을 많이 가지고 있지만, 아쉽게도 Linux에서는 제어할 수 없었습니다. 다행히 Linux에서 트래킹 제어를 가능하게 하는 몇 가지 프로젝트가 있습니다. 하지만 나는 Sleep & Wake, 프리셋 불러오기 같은 기능도 필요했기 때문에, 그중 하나의 프로젝트를 포크하여 계속 개발하고 있습니다."
+    },
     "kickPages": {
       "name": "Kick-Pages",
       "description": "지역 음악가의 웹사이트. 과거 개발 시 발생한 기술적 오류가 있어 순차적으로 리뉴얼 예정."

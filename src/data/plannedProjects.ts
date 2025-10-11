@@ -12,6 +12,17 @@ export const plannedProjects: TypesPlannedProject[] = [
       "https://github.com/marketplace/actions/set-github-variable-by-open-foxes",
   },
   {
+    name: "projects.tiny4linux.name",
+    description: "projects.tiny4linux.description",
+    emoji: "🎦",
+    state: ProjectStates.ACTIVE,
+    urlRepo: "https://github.com/OpenFoxes/Tiny4Linux",
+    newFlag: {
+      since: "2025-10-11",
+      newDescription: "projects.tiny4linux.newDescription",
+    },
+  },
+  {
     name: "projects.kickPages.name",
     description: "projects.kickPages.description",
     emoji: "🎸",

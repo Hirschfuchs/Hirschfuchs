@@ -23,7 +23,14 @@
   - 📷 फ़ोटोग्राफ़ी
 
 
-## 🆕 नया प्रोजेक्ट
+## 🆕 नए प्रोजेक्ट्स
+
+### 🎦 Tiny4Linux ([रिपॉजिटरी देखें](https://github.com/OpenFoxes/Tiny4Linux))
+
+> Linux सिस्टम पर OBSBOT Tiny सीरीज़ को नियंत्रित करने के लिए GUI कंट्रोलर
+
+#### नया!
+नई वेबकैम चुनते समय मैंने OBSBOT की Tiny 2 Lite को चुना। इस PTZ कैमरे में कई शानदार फीचर हैं, लेकिन अफ़सोस की बात है कि मैं इसे Linux पर नियंत्रित नहीं कर सका। सौभाग्य से, कुछ प्रोजेक्ट्स हैं जो Linux पर ट्रैकिंग कंट्रोल सक्षम करते हैं। लेकिन मुझे Sleep & Wake या प्रीसेट जैसी अन्य सुविधाएँ भी चाहिए थीं, इसलिए मैंने उन प्रोजेक्ट्स में से एक को फोर्क किया और उस पर आगे काम किया।
 
 ### 🏠 GitHub स्टार्टिंग पेज ([रिपॉजिटरी देखें](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([ऑनलाइन देखें](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
 
@@ -40,6 +47,7 @@
 |📦 प्रोजेक्ट्स|🎉 स्थिति|✔️ बिल्ड स्थिति|🛎 Issues|📬 Pull Requests|
 |------|------|------|------|------|
 |[GitHub Actions के लिए Set-Variable](https://github.com/OpenFoxes/set-github-variable) ([ऑनलाइन देखें](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 सक्रिय|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
+|[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 सक्रिय|<img alt="State" src="https://img.shields.io/badge/website-%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%A4%E0%A4%95%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%A8%E0%A4%B9%E0%A5%80%E0%A4%82-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([ऑनलाइन देखें](https://kick-fox.de))|🏃 सक्रिय|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[🆕 GitHub स्टार्टिंग पेज](https://github.com/Hirschfuchs/Hirschfuchs) ([ऑनलाइन देखें](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 सक्रिय|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass प्लगइन संग्रह](https://github.com/Hirschfuchs/keepass-plugins)|🏃 सक्रिय|<img alt="State" src="https://img.shields.io/badge/website-%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%A4%E0%A4%95%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%A8%E0%A4%B9%E0%A5%80%E0%A4%82-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
@@ -55,6 +63,7 @@
 
 ### 📖 विवरण
 - #️⃣ GitHub Actions के लिए Set-Variable: रिपॉजिटरी वेरिएबल्स सेट करने के लिए GitHub Action
+- 🎦 Tiny4Linux: Linux सिस्टम पर OBSBOT Tiny सीरीज़ को नियंत्रित करने के लिए GUI कंट्रोलर
 - 🎸 Kick-Pages: स्थानीय संगीतकार की वेबसाइट। पुराने कोड में तकनीकी गलतियाँ हैं → धीरे-धीरे फिर से बनाई जाएगी।
 - 🏠 GitHub स्टार्टिंग पेज: यह पेज (GitHub पोर्टफोलियो को डायनामिक रूप से जनरेट करने का प्रोजेक्ट)
 - 🔏 KeePass प्लगइन संग्रह: उपयोगी KeePass प्लगइनों का व्यक्तिगत संग्रह, सार्वजनिक रूप से साझा किया गया। स्वचालित अपडेट।
