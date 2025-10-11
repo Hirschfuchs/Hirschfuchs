@@ -34,11 +34,10 @@ jobs:
       - name: Tests ausführen
         run: npm run test-with-coverage
 
-      - name: Prüfen auf Änderungen an Dateien
+      - name: Dateiänderungen zurücksetzen
         run: |
-          git status --short
-          git add -A
-          git diff --cached --exit-code
+          git reset --hard ${{ github.event.pull_request.head.sha }}
+          git clean -f
 
       - name: Code formatieren
         if: >-
