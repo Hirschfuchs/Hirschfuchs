@@ -23,7 +23,7 @@
   - 📷 Fotografie
 
 
-## 🆕 Neue Projekte
+## 🆕 Neues Projekt
 
 ### 🎦 Tiny4Linux ([Repository anzeigen](https://github.com/OpenFoxes/Tiny4Linux))
 
@@ -31,15 +31,6 @@
 
 #### NEU!
 Bei der Auswahl einer neuen Webcam habe ich mich für die Tiny 2 Lite von OBSBOT entschieden. Diese PTZ-Kamera hat einige fancy Funktionen. Nur leider kann ich sie auf Linux nicht steuern. Zum Glück gibt es ein paar Projekte, die die Steuerung des Trackings auf Linux bringen. Da ich aber auch andere Funktionen, wie Sleep & Wake oder den Abruf von Voreinstellungen brauche, habe ich eines der Projekte geforked und entwickle weiter daran.
-
-### 🏠 Github Startseite ([Repository anzeigen](https://github.com/Hirschfuchs/Hirschfuchs)) --> ([Online anzeigen](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))
-
-> Diese Seite (Projekt um die dynamische Generierung eines Github-Portfolios)
-
-#### NEU!
-Diese Seite steht jetzt mehrsprachig zur Verfügung. Die Sprache kann oben rechts ausgewählt werden.
-
-Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberhalb der Projektübersicht an.
 
 
 ## 🚧 Geplante Projekte
@@ -49,7 +40,7 @@ Weiterhin wurde sie um zusätzliche Infos ergänzt und zeigt neue Projekte oberh
 |[Set-Variable für Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Online anzeigen](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
 |[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 Aktiv|<img alt="State" src="https://img.shields.io/badge/website-Noch%20keine%20Website-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Seiten](https://github.com/Kick-Projects/kick-fox-alt) ([Online anzeigen](https://kick-fox.de))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
-|[🆕 Github Startseite](https://github.com/Hirschfuchs/Hirschfuchs) ([Online anzeigen](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
+|[Github Startseite](https://github.com/Hirschfuchs/Hirschfuchs) ([Online anzeigen](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Aktiv|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass Plugin Sammlung](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Aktiv|<img alt="State" src="https://img.shields.io/badge/website-Noch%20keine%20Website-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
 |[Portfolio](https://github.com/Hirschfuchs/portfolio) ([Online anzeigen](https://test.bono-fox.de))|🚧 In Arbeit|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
 |[Vim-Cheatsheet (Vimfo)](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([Online anzeigen](https://vimfo.org))|⏸️ Pausiert|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|

@@ -37,10 +37,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/Hirschfuchs/Hirschfuchs",
     urlWeb: "https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md",
-    newFlag: {
-      since: "2025-09-11",
-      newDescription: "projects.githubStartingpage.newDescription",
-    },
+    newFlag: false,
   },
   {
     name: "projects.keepassPlugins.name",
