@@ -98,6 +98,11 @@
       "description": "Colección personal de plugins útiles para KeePass, compartida públicamente. Actualizaciones automáticas.",
       "newDescription": "Cuando me di cuenta, trabajando con mi base de datos KeePass, de que KeePass se actualizaba a través de mi gestor de paquetes, pero los plugins tenían que mantenerse manualmente, se me ocurrió la idea de moverlos a una carpeta separada. Así podía usar los mismos plugins en todos mis dispositivos.\n\nLuego pensé: si ya estoy haciendo esto, mejor subirlo todo a GitHub para poder acceder desde cualquier lugar y compartirlo con el mundo, por si a alguien más le resulta útil.\n\nY entonces apareció el clásico síndrome del programador: *\"Esto debería poder mantenerse con Renovate — si hago que los plugins sean legibles por máquina y los descargo automáticamente.\"*"
     },
+    "randomImageApi": {
+      "name": "API de imágenes aleatorias",
+      "description": "API que puede seleccionar y entregar imágenes aleatorias según ciertos criterios.",
+      "newDescription": "Un pequeño script en Python que escribí hace un tiempo para un proyecto privado. Esta API puede resultar bastante útil en algunos casos de uso, así que la subí a GitHub. La iré ampliando con nuevas funciones y corrigiendo errores de vez en cuando."
+    },
     "portfolio": {
       "name": "Portafolio",
       "description": "Autopromoción ^^"

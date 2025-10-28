@@ -25,6 +25,13 @@
 
 ## 🆕 新專案
 
+### 🖼️ 隨機圖片 API ([查看倉庫](https://github.com/OpenFoxes/random-image-api))
+
+> 可依特定條件選取並傳回隨機圖片的 API。
+
+#### 全新！
+這是一個我早前為私人專案撰寫的小型 Python 腳本。這個 API 在某些情況下相當實用，所以我把它上傳到 GitHub，並會不定期新增功能與修正錯誤。
+
 ### 🎦 Tiny4Linux ([查看倉庫](https://github.com/OpenFoxes/Tiny4Linux))
 
 > 在 Linux 系統上控制 OBSBOT Tiny 系列的 GUI 控制器
@@ -42,6 +49,7 @@
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([線上查看](https://kick-fox.de))|🏃 活躍|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[GitHub 首頁](https://github.com/Hirschfuchs/Hirschfuchs) ([線上查看](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 活躍|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass 外掛程式集合](https://github.com/Hirschfuchs/keepass-plugins)|🏃 活躍|<img alt="State" src="https://img.shields.io/badge/website-%E5%B0%9A%E7%84%A1%E7%B6%B2%E7%AB%99-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
+|[🆕 隨機圖片 API](https://github.com/OpenFoxes/random-image-api)|🏃 活躍|<img alt="State" src="https://img.shields.io/badge/website-%E5%B0%9A%E7%84%A1%E7%B6%B2%E7%AB%99-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/random-image-api?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/random-image-api?style=flat-square"/>|
 |[作品集](https://github.com/Hirschfuchs/portfolio) ([線上查看](https://test.bono-fox.de))|🚧 進行中|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
 |[Vimfo](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([線上查看](https://vimfo.org))|⏸️ 暫停|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|
 |[TS-Builder](https://github.com/OpenFoxes/ts-builder) ([線上查看](https://www.npmjs.com/package/@openfoxes/ts-builder))|⏸️ 暫停|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://www.npmjs.com/package/@openfoxes/ts-builder"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/www.npmjs.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/ts-builder?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/ts-builder?style=flat-square"/>|
@@ -58,6 +66,7 @@
 - 🎸 Kick-Pages: 一位本地音樂人的網站。包含一些早期開發中的技術錯誤 -> 正在逐步重建。
 - 🏠 GitHub 首頁: 此頁面（用於動態生成 GitHub 個人作品集的專案）
 - 🔏 KeePass 外掛程式集合: 個人收集的實用 KeePass 外掛程式，與大家分享，並提供自動更新。
+- 🖼️ 隨機圖片 API: 可依特定條件選取並傳回隨機圖片的 API。
 - 📖 作品集: 自我推廣 ^^
 - ⌨️ Vimfo: 一個互動式的 VIM 快捷鍵速查表
 - 🏗️ TS-Builder: 在 TypeScript 中實現動態建構器模式

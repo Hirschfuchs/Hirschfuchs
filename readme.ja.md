@@ -25,6 +25,13 @@
 
 ## 🆕 新しいプロジェクト
 
+### 🖼️ ランダム画像 API ([リポジトリを表示](https://github.com/OpenFoxes/random-image-api))
+
+> 特定の条件に基づいてランダムな画像を選択・提供できる API。
+
+#### 新着！
+以前、個人プロジェクトのために作成した小さな Python スクリプトです。この API はいくつかのユースケースで便利に使えると思い、GitHub に公開しました。今後、不定期に機能追加やバグ修正を行う予定です。
+
 ### 🎦 Tiny4Linux ([リポジトリを表示](https://github.com/OpenFoxes/Tiny4Linux))
 
 > Linux システム上で OBSBOT Tiny シリーズを制御するための GUI コントローラー
@@ -42,6 +49,7 @@
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([オンラインで表示](https://kick-fox.de))|🏃 アクティブ|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[GitHub スタートページ](https://github.com/Hirschfuchs/Hirschfuchs) ([オンラインで表示](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 アクティブ|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass プラグイン集](https://github.com/Hirschfuchs/keepass-plugins)|🏃 アクティブ|<img alt="State" src="https://img.shields.io/badge/website-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E6%9C%AA%E4%BD%9C%E6%88%90-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
+|[🆕 ランダム画像 API](https://github.com/OpenFoxes/random-image-api)|🏃 アクティブ|<img alt="State" src="https://img.shields.io/badge/website-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E6%9C%AA%E4%BD%9C%E6%88%90-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/random-image-api?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/random-image-api?style=flat-square"/>|
 |[ポートフォリオ](https://github.com/Hirschfuchs/portfolio) ([オンラインで表示](https://test.bono-fox.de))|🚧 作業中|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
 |[Vimfo](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([オンラインで表示](https://vimfo.org))|⏸️ 一時停止|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|
 |[TS-Builder](https://github.com/OpenFoxes/ts-builder) ([オンラインで表示](https://www.npmjs.com/package/@openfoxes/ts-builder))|⏸️ 一時停止|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://www.npmjs.com/package/@openfoxes/ts-builder"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/www.npmjs.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/ts-builder?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/ts-builder?style=flat-square"/>|
@@ -58,6 +66,7 @@
 - 🎸 Kick-Pages: 地元ミュージシャンのウェブサイト。若い頃に作成したため技術的なミスあり → 順次リニューアル予定。
 - 🏠 GitHub スタートページ: このページ（GitHub ポートフォリオを動的生成するプロジェクト）
 - 🔏 KeePass プラグイン集: 個人的に便利だと思う KeePass プラグインのコレクション。自動更新機能付きで公開。
+- 🖼️ ランダム画像 API: 特定の条件に基づいてランダムな画像を選択・提供できる API。
 - 📖 ポートフォリオ: 自己アピール ^^
 - ⌨️ Vimfo: VIM のキーバインドを確認できるインタラクティブチートシート
 - 🏗️ TS-Builder: TypeScript で動的ビルダーパターンを実装
