@@ -23,7 +23,14 @@
   - 📷 Photography
 
 
-## 🆕 New Project
+## 🆕 New Projects
+
+### 🖼️ Random Image API ([View Repo](https://github.com/OpenFoxes/random-image-api))
+
+> API that can select and deliver random images based on certain criteria.
+
+#### NEW!
+A small Python script I wrote some time ago for a private project. The API could be quite handy for certain use cases, so I uploaded it to GitHub. I’ll continue to add new features and fix bugs from time to time.
 
 ### 🎦 Tiny4Linux ([View Repo](https://github.com/OpenFoxes/Tiny4Linux))
 
@@ -42,6 +49,7 @@ When choosing a new webcam, I went with the Tiny 2 Lite from OBSBOT. This PTZ ca
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([Show Online](https://kick-fox.de))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[Github Starting page](https://github.com/Hirschfuchs/Hirschfuchs) ([Show Online](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Active|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass Plugin Collection](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Active|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
+|[🆕 Random Image API](https://github.com/OpenFoxes/random-image-api)|🏃 Active|<img alt="State" src="https://img.shields.io/badge/website-No%20website%20yet-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/random-image-api?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/random-image-api?style=flat-square"/>|
 |[Portfolio](https://github.com/Hirschfuchs/portfolio) ([Show Online](https://test.bono-fox.de))|🚧 Work in Progress|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://test.bono-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/test.bono-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/portfolio?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/portfolio?style=flat-square"/>|
 |[Vim-Cheatsheet (Vimfo)](https://github.com/OpenFoxes/vim-cheatsheet-interactive) ([Show Online](https://vimfo.org))|⏸️ Paused|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://vimfo.org"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/vimfo.org?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/vim-cheatsheet-interactive?style=flat-square"/>|
 |[TS-Builder](https://github.com/OpenFoxes/ts-builder) ([Show Online](https://www.npmjs.com/package/@openfoxes/ts-builder))|⏸️ Paused|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://www.npmjs.com/package/@openfoxes/ts-builder"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/www.npmjs.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/ts-builder?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/ts-builder?style=flat-square"/>|
@@ -58,6 +66,7 @@ When choosing a new webcam, I went with the Tiny 2 Lite from OBSBOT. This PTZ ca
 - 🎸 Kick-Pages: Webpages of a local musician. Many technical youthful mistakes -> will be redone.
 - 🏠 Github Starting page: This page (project for the dynamic generation of a GitHub portfolio)
 - 🔏 KeePass Plugin Collection: Personal collection of useful KeePass-Plugins, shared with the public. Automated Updates.
+- 🖼️ Random Image API: API that can select and deliver random images based on certain criteria.
 - 📖 Portfolio: Self-Marketing ^^
 - ⌨️ Vim-Cheatsheet (Vimfo): An interactive cheatsheet for VIM-keys
 - 🏗️ TS-Builder: Implementation of an dynamic builder pattern in Typescript

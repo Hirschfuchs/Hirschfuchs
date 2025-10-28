@@ -98,6 +98,11 @@
       "description": "Persönliche Sammlung nützlicher KeePass-Plugins, öffentlich geteilt. Updates automatisch.",
       "newDescription": "Beim Arbeiten mit meiner KeePass-Datenbank hab i gmerkt, dass KeePass selbst über mein Paketmanager updated, die Plugins aber manuell gpflegt werdn müssn.\n\nAlso hob i sie in an extra Ordner gstellt, damit i überall die gleichen Plugins nutzen kann.\n\nDann hob i mir gedacht: wenn i eh dabei bin, pack i’s gleich auf GitHub, dann kann i von überall drauf zugreifn und wer’s brauchen kann, kann’s sich holen.\n\nUnd da is des klassische Entwickler-Syndrom losganga: *„Des muaß doch mit Renovate wartbar sei – wenn i die Plugins maschinenlesbar mach und automatisch lad.“*"
     },
+    "randomImageApi": {
+      "name": "Zufallsbild-API",
+      "description": "API, de nach Vorgabn zufällige Bilder aussuachn und ausliefan ko.",
+      "newDescription": "A kloans Python-Script, des i vor a Zeit scho amoi für a privats Projekt gschriebn hob. De API is recht praktisch für manche Fälle, drum hab i’s auf GitHub ghaun. Ab und zua kumman no neue Funktionen dazu, und Bugs wern gfixt, wenn i dazua kimm."
+    },
     "portfolio": {
       "name": "Portfolio",
       "description": "Eigenwerbung ^^"
