@@ -17,10 +17,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     emoji: "🎦",
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/OpenFoxes/Tiny4Linux",
-    newFlag: {
-      since: "2025-10-11",
-      newDescription: "projects.tiny4linux.newDescription",
-    },
+    newFlag: false,
   },
   {
     name: "projects.kickPages.name",

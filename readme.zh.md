@@ -33,20 +33,13 @@
 #### 全新！
 這是一個我早前為私人專案撰寫的小型 Python 腳本。這個 API 在某些情況下相當實用，所以我把它上傳到 GitHub，並會不定期新增功能與修正錯誤。
 
-### 🎦 Tiny4Linux ([查看倉庫](https://github.com/OpenFoxes/Tiny4Linux))
-
-> 在 Linux 系統上控制 OBSBOT Tiny 系列的 GUI 控制器
-
-#### 全新！
-在挑選新網路攝影機時，我選擇了 OBSBOT 的 Tiny 2 Lite。這台 PTZ 攝影機功能非常炫，但可惜在 Linux 上無法控制。幸好有一些專案能在 Linux 上實現追蹤控制。不過，由於我還需要像 Sleep & Wake 或預設值讀取等功能，我 fork 了其中一個專案並繼續開發。
-
 
 ## 🚧 計畫中的專案
 
 |📦 專案|🎉 狀態|✔️ 建置狀態|🛎 問題（Issues）|📬 Pull Requests|
 |------|------|------|------|------|
 |[Github Actions 變數設定](https://github.com/OpenFoxes/set-github-variable) ([線上查看](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 活躍|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
-|[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 活躍|<img alt="State" src="https://img.shields.io/badge/website-%E5%B0%9A%E7%84%A1%E7%B6%B2%E7%AB%99-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
+|[Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 活躍|<img alt="State" src="https://img.shields.io/badge/website-%E5%B0%9A%E7%84%A1%E7%B6%B2%E7%AB%99-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([線上查看](https://kick-fox.de))|🏃 活躍|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[GitHub 首頁](https://github.com/Hirschfuchs/Hirschfuchs) ([線上查看](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 活躍|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[KeePass 外掛程式集合](https://github.com/Hirschfuchs/keepass-plugins)|🏃 活躍|<img alt="State" src="https://img.shields.io/badge/website-%E5%B0%9A%E7%84%A1%E7%B6%B2%E7%AB%99-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|

@@ -24,7 +24,7 @@
   - 📷 Photographie
 
 
-## 🆕 Nouveaux projets
+## 🆕 Nouveau projet
 
 ### 🖼️ API d’images aléatoires ([Voir le dépôt](https://github.com/OpenFoxes/random-image-api))
 
@@ -33,20 +33,13 @@
 #### NOUVEAU!
 Un petit script Python que j’avais écrit il y a quelque temps pour un projet personnel. L’API peut être pratique pour certains cas d’usage, je l’ai donc mise sur GitHub. J’y ajouterai de nouvelles fonctionnalités et corrigerai les bugs de temps en temps.
 
-### 🎦 Tiny4Linux ([Voir le dépôt](https://github.com/OpenFoxes/Tiny4Linux))
-
-> Contrôleur GUI pour gérer la série OBSBOT Tiny sur les systèmes Linux
-
-#### NOUVEAU!
-En choisissant une nouvelle webcam, j’ai opté pour la Tiny 2 Lite d’OBSBOT. Cette caméra PTZ offre des fonctionnalités impressionnantes, mais malheureusement, je ne pouvais pas la contrôler sous Linux. Heureusement, certains projets permettent de gérer le suivi sur Linux. Comme j’avais aussi besoin de fonctions comme Sleep & Wake ou le rappel des préréglages, j’ai forké l’un de ces projets et j’ai continué son développement.
-
 
 ## 🚧 Projets planifiés
 
 |📦 Projets|🎉 État|✔️ État de build|🛎 Issues|📬 Pull requests|
 |------|------|------|------|------|
 |[Set-Variable pour Github Actions](https://github.com/OpenFoxes/set-github-variable) ([Afficher en ligne](https://github.com/marketplace/actions/set-github-variable-by-open-foxes))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/marketplace/actions/set-github-variable-by-open-foxes"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/set-github-variable?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/set-github-variable?style=flat-square"/>|
-|[🆕 Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
+|[Tiny4Linux](https://github.com/OpenFoxes/Tiny4Linux)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/OpenFoxes/Tiny4Linux?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OpenFoxes/Tiny4Linux?style=flat-square"/>|
 |[Kick-Pages](https://github.com/Kick-Projects/kick-fox-alt) ([Afficher en ligne](https://kick-fox.de))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://kick-fox.de"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/kick-fox.de?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Kick-Projects/kick-fox-alt?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Kick-Projects/kick-fox-alt?style=flat-square"/>|
 |[Page d'accueil GitHub](https://github.com/Hirschfuchs/Hirschfuchs) ([Afficher en ligne](https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md))|🏃 Actif|<img alt="State" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https://github.com/Hirschfuchs/Hirschfuchs/blob/main/readme.md"/> <img alt="Security (Headers)" src="https://img.shields.io/mozilla-observatory/grade/github.com?label=h-security&logo=mozilla&publish"/>|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/Hirschfuchs?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/Hirschfuchs?style=flat-square"/>|
 |[Collection de plugins KeePass](https://github.com/Hirschfuchs/keepass-plugins)|🏃 Actif|<img alt="State" src="https://img.shields.io/badge/website-Pas%20encore%20de%20site%20web-orange" />|<img alt="Issues" src="https://img.shields.io/github/issues/Hirschfuchs/keepass-plugins?style=flat-square"/>|<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Hirschfuchs/keepass-plugins?style=flat-square"/>|
