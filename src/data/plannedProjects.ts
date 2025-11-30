@@ -50,10 +50,7 @@ export const plannedProjects: TypesPlannedProject[] = [
     emoji: "🖼️",
     state: ProjectStates.ACTIVE,
     urlRepo: "https://github.com/OpenFoxes/random-image-api",
-    newFlag: {
-      since: "2025-10-29",
-      newDescription: "projects.randomImageApi.newDescription",
-    },
+    newFlag: false,
   },
   {
     name: "projects.portfolio.name",
